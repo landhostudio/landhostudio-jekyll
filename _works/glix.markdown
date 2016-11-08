@@ -9,8 +9,7 @@ tags:
 - copywriting
 - video
 size: large
-thumbnail_image_file: 
-thumbnail_video_file: 
+thumbnail_image_file: "/uploads/work_image_1.jpg"
 payoff: Shop everywear you are
 solutions:
 - Branding
@@ -21,6 +20,7 @@ link: http://glix.info
 grid:
 - file: "/uploads/work_image_1.jpg"
   size: large
+video: 117172709
 ---
 
 Glix è una fashion-app dove ogni utente ha la possibilità di acquistare online tramite dei personal shopper da lui selezionati.
