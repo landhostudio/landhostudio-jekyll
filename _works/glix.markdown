@@ -17,8 +17,7 @@ solutions:
 - Copywriting
 - Video
 year_date: 2015-11-11 00:00:00 +01:00
-link:
-  Glix.info: http://glix.info
+link: http://glix.info
 grid:
 - file: 
   size: large
