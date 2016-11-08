@@ -13,8 +13,8 @@ collections:
     output: true
 email: hello@landhostudio.com
 description: An awesome description of our new site
-baseurl: ''
-url: ''
+baseurl: 
+url: 
 twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown
