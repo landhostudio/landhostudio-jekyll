@@ -7,6 +7,7 @@ tags:
 - photography
 - print
 size: medium
+thumbnail_image_file: "/uploads/work_image_1.jpg"
 solutions:
 - Photography
 - Print
