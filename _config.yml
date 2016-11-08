@@ -11,6 +11,29 @@ collections:
   works:
     title: Works
     output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+- scope:
+    path: ''
+    type: works
+  values:
+    layout: work
+    size: large
+    thumbnail_image_file: 
+    thumbnail_video_file: 
+    payoff: 
+    solutions:
+    - 
+    year_date: 
+    link: 
+    grid:
+    - file: 
+      size: large
+
 email: hello@landhostudio.com
 description: An awesome description of our new site
 baseurl: 
