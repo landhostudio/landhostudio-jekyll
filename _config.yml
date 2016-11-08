@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  works:
+    title: Works
+    output: true
 email: hello@landhostudio.com
 description: An awesome description of our new site
 baseurl: ''
