@@ -4,6 +4,10 @@ date: 2016-11-08 16:11:00 +01:00
 categories:
 - fashion
 - app
+tags:
+- branding
+- copywriting
+- video
 size: large
 thumbnail_image_file: 
 thumbnail_video_file: 
