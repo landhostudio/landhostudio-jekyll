@@ -19,7 +19,7 @@ solutions:
 year_date: 2015-11-11 00:00:00 +01:00
 link: http://glix.info
 grid:
-- file: 
+- file: "/uploads/work_image_1.jpg"
   size: large
 ---
 
