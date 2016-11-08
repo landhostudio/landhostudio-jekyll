@@ -1,6 +1,6 @@
 ---
-title: Your awesome title
-timezone: UTC
+title: Land Ho
+timezone: Europe/Rome
 collections:
   posts:
     title: Posts
@@ -8,12 +8,8 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: your-email@domain.com
-description: 'Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
-
-'
+email: hello@landhostudio.com
+description: An awesome description of our new site
 baseurl: ''
 url: ''
 twitter_username: jekyllrb
