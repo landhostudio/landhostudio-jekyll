@@ -9,8 +9,7 @@ tags:
 - copywriting
 - video
 size: large
-thumbnail_image_file: 
-thumbnail_video_file: 
+video: 117172709
 payoff: Shop everywear you are
 solutions:
 - Branding
