@@ -1,0 +1,25 @@
+---
+title: Land Ho
+timezone: Europe/Rome
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+  works:
+    title: Works
+    output: true
+email: hello@landhostudio.com
+description: An awesome description of our new site
+baseurl: 
+url: 
+twitter_username: jekyllrb
+github_username: jekyll
+markdown: kramdown
+gems:
+- jekyll-feed
+exclude:
+- Gemfile
+- Gemfile.lock
