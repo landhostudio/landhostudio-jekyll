@@ -11,9 +11,9 @@ position: 1
 size: medium
 thumbnail_image_file: "/uploads/argentero_winter-hero.jpg"
 client: Argentero
-year_date: 2015-11-10 00:00:00 +01:00
 kind:
 - Fashion
+year_date: 2015-11-10 00:00:00 +01:00
 link: http://argentero.eu
 grid:
 - size: huge
