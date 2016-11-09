@@ -7,8 +7,7 @@ tags:
 - photography
 - print
 size: medium
-thumbnail_image_file: "/uploads/work_image_1.jpg"
-thumbnail_video_file: "/uploads/argentero_winter-hero.jpg"
+thumbnail_image_file: "/uploads/argentero_winter-hero.jpg"
 solutions:
 - Photography
 - Print
