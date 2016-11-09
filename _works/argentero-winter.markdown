@@ -3,6 +3,7 @@ title: Argentero winter
 date: 2016-11-08 17:44:00 +01:00
 categories:
 - fashion
+- photography
 tags:
 - photography
 - print
