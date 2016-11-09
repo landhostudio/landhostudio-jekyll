@@ -15,6 +15,8 @@ thumbnail_video_file: "/uploads/glix-hero-preview.mp4"
 video: 117172709
 client: Glix
 payoff: Shop everywear you are
+kind:
+- Fashion
 year_date: 2015-11-11 00:00:00 +01:00
 link: http://glix.info
 grid:
@@ -33,8 +35,6 @@ grid:
 - size: huge
   image_file: "/uploads/glix-5.jpg"
   video_file: "/uploads/glix-preview.mp4"
-kind:
-- Fashion
 ---
 
 Glix è una fashion-app dove ogni utente ha la possibilità di acquistare online tramite dei personal shopper da lui selezionati.
