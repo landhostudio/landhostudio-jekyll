@@ -9,6 +9,7 @@ tags:
 - cover
 - band
 - music
+position: 3
 thumbnail_image_file: "/uploads/il-cielo-di-bagdad-hero.jpg"
 client: Il cielo di Bagdad
 kind:
