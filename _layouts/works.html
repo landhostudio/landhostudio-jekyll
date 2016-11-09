@@ -9,7 +9,8 @@ layout: default
   {{ content }}
 
   <ul class="post-list">
-    {% for work in site.works %}
+    {% assign works = site.works | sort: 'position' %}
+    {% for work in works %}
       <li>
         <span class="post-meta">{{ work.date | date: "%b %-d, %Y" }}</span>
 
