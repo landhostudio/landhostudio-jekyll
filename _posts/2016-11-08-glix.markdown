@@ -15,10 +15,8 @@ thumbnail_video_file: "/uploads/glix-hero-preview.mp4"
 video: 117172709
 client: Glix
 payoff: Shop everywear you are
-solutions:
-- Branding
-- Copywriting
-- Video
+kind:
+- Fashion
 year_date: 2015-11-11 00:00:00 +01:00
 link: http://glix.info
 grid:
