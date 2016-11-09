@@ -27,7 +27,7 @@ grid:
   size: half
 - file: "/uploads/glix-4.jpg"
   size: half
-- file: "/uploads/glix-5.jpg"
+- file: "/uploads/glix-preview.mp4"
   size: huge
 ---
 
