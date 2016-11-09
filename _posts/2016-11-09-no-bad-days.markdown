@@ -28,6 +28,10 @@ grid:
 - size: huge
   image_file: "/uploads/il-cielo-di-bagdad-4.jpg"
   video_file: 
+works:
+- Glix
+- Argentero winter
+- No bad days
 ---
 
 Il cielo di Bagdad è una band italiana che ci piace molto.
