@@ -8,6 +8,7 @@ tags:
 - print
 size: medium
 thumbnail_image_file: "/uploads/argentero_winter-hero.jpg"
+client: Argentero
 solutions:
 - Photography
 - Print
