@@ -22,7 +22,7 @@ defaults:
     type: posts
   values:
     layout: post
-    permalink: /work/:title/
+    permalink: "/work/:title/"
     size: large
     thumbnail_image_file: 
     thumbnail_video_file: 
