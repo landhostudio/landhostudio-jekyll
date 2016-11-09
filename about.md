@@ -1,7 +1,7 @@
 ---
 title: About
 permalink: "/about/"
-position: 0
+position: 1
 layout: page
 ---
 
