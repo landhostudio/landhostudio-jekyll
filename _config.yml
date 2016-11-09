@@ -27,8 +27,9 @@ defaults:
     year_date: 
     link: 
     grid:
-    - file: 
-      size: large
+    - size: half
+      image_file: 
+      video_file: 
 email: hello@landhostudio.com
 description: An awesome description of our new site
 baseurl: 
@@ -36,6 +37,7 @@ url:
 twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown
+permalink: pretty
 gems:
 - jekyll-feed
 exclude:
