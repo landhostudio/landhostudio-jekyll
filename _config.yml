@@ -2,11 +2,11 @@
 title: Land Ho
 timezone: Europe/Rome
 collections:
-  posts:
-    title: Works
-    output: true
   uploads:
     title: Uploads
+    output: true
+  posts:
+    title: Works
     output: true
 defaults:
 - scope:
