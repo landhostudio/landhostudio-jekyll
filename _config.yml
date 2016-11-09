@@ -35,6 +35,8 @@ defaults:
     - size: half
       image_file: 
       video_file: 
+    works:
+    - 
 email: hello@landhostudio.com
 description: An awesome description of our new site
 baseurl: 
