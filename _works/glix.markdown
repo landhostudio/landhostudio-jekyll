@@ -11,6 +11,7 @@ tags:
 position: 0
 size: large
 thumbnail_image_file: "/uploads/glix-hero.jpg"
+thumbnail_video_file: "/uploads/glix-hero-preview.mp4"
 video: 117172709
 client: Glix
 payoff: Shop everywear you are
