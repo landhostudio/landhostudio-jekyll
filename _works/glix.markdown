@@ -19,16 +19,21 @@ solutions:
 year_date: 2015-11-11 00:00:00 +01:00
 link: http://glix.info
 grid:
-- file: "/uploads/glix-1.jpg"
-  size: half
-- file: "/uploads/glix-2.jpg"
-  size: half
-- file: "/uploads/glix-3.jpg"
-  size: half
-- file: "/uploads/glix-4.jpg"
-  size: half
-- file: "/uploads/glix-preview.mp4"
-  size: huge
+- size: half
+  image_file: "/uploads/glix-1.jpg"
+  video_file: 
+- size: half
+  image_file: "/uploads/glix-2.jpg"
+  video_file: 
+- size: half
+  image_file: "/uploads/glix-3.jpg"
+  video_file: 
+- size: half
+  image_file: "/uploads/glix-4.jpg"
+  video_file: 
+- size: huge
+  image_file: "/uploads/glix-5.jpg"
+  video_file: "/uploads/glix-preview.mp4"
 ---
 
 Glix è una fashion-app dove ogni utente ha la possibilità di acquistare online tramite dei personal shopper da lui selezionati.
