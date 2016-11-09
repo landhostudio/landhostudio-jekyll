@@ -20,6 +20,7 @@ defaults:
     size: large
     thumbnail_image_file: 
     thumbnail_video_file: 
+    video: 
     payoff: 
     solutions:
     - 
@@ -40,3 +41,4 @@ gems:
 exclude:
 - Gemfile
 - Gemfile.lock
+- ".editorconfig"
