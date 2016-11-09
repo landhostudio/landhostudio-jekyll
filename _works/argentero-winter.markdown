@@ -8,11 +8,25 @@ tags:
 - print
 size: medium
 thumbnail_image_file: "/uploads/work_image_1.jpg"
+thumbnail_video_file: "/uploads/argentero_winter-hero.jpg"
 solutions:
 - Photography
 - Print
 year_date: 2015-11-10 00:00:00 +01:00
 link: http://argentero.eu
+grid:
+- file: "/uploads/argentero_winter-1.jpg"
+  size: huge
+- file: "/uploads/argentero_winter-2.jpg"
+  size: half
+- file: "/uploads/argentero_winter-3.jpg"
+  size: half
+- file: "/uploads/argentero_winter-4.jpg"
+  size: huge
+- file: "/uploads/argentero_winter-5.jpg"
+  size: half
+- file: "/uploads/argentero_winter-6.jpg"
+  size: half
 ---
 
 Argentero è un brand di abbigliamento da donna che ha base a Roma.
