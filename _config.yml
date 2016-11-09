@@ -8,9 +8,6 @@ collections:
   posts:
     title: Works
     output: true
-  test:
-    title: test
-    output: true
 defaults:
 - scope:
     path: ''

@@ -11,8 +11,6 @@ tags:
 - music
 thumbnail_image_file: "/uploads/il-cielo-di-bagdad-hero.jpg"
 client: Il cielo di Bagdad
-kind:
-- Music
 year_date: 2015-11-11 00:00:00 +01:00
 grid:
 - size: huge
@@ -27,6 +25,8 @@ grid:
 - size: huge
   image_file: "/uploads/il-cielo-di-bagdad-4.jpg"
   video_file: 
+kind:
+- Music
 ---
 
 Il cielo di Bagdad è una band italiana che ci piace molto.
