@@ -11,6 +11,8 @@ tags:
 - music
 thumbnail_image_file: "/uploads/il-cielo-di-bagdad-hero.jpg"
 client: Il cielo di Bagdad
+kind:
+- Music
 year_date: 2015-11-11 00:00:00 +01:00
 grid:
 - size: huge
