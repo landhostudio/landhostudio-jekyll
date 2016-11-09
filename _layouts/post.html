@@ -22,12 +22,12 @@ layout: default
       <p class="post-client"><strong>Client</strong> {{ page.client }}</p>
     {% endif %}
 
-    {% if page.categories %}
-      <p class="post-categories"><strong>Categories</strong> {% assign categories = page.categories %}{% for category in categories %}{% if forloop.last == true %}{{ category | capitalize }}{% else %}{{ category | capitalize }}, {% endif %}{% endfor %}</p>
+    {% if page.kind %}
+      <p class="post-categories"><strong>Category</strong> {% assign kinds = page.kind %}{% for kind in kinds %}{% if forloop.last == true %}{{ kind | capitalize }}{% else %}{{ kind | capitalize }}, {% endif %}{% endfor %}</p>
     {% endif %}
 
-    {% if page.solutions %}
-      <p class="post-solutions"><strong>Solutions</strong> {% assign solutions = page.solutions %}{% for solution in solutions %}{% if forloop.last == true %}{{ solution | capitalize }}{% else %}{{ solution | capitalize }}, {% endif %}{% endfor %}</p>
+    {% if page.categories %}
+      <p class="post-solutions"><strong>Solutions</strong> {% assign categories = page.categories %}{% for category in categories %}{% if forloop.last == true %}{{ category | capitalize }}{% else %}{{ category | capitalize }}, {% endif %}{% endfor %}</p>
     {% endif %}
 
     {% if page.year_date %}

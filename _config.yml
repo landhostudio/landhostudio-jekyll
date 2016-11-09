@@ -2,11 +2,11 @@
 title: Land Ho
 timezone: Europe/Rome
 collections:
-  uploads:
-    title: Uploads
-    output: true
   posts:
     title: Works
+    output: true
+  uploads:
+    title: Uploads
     output: true
 defaults:
 - scope:
@@ -25,7 +25,7 @@ defaults:
     video: 
     client: 
     payoff: 
-    solutions:
+    kind:
     - 
     year_date: 
     link: 
@@ -40,7 +40,7 @@ url:
 twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown
-permalink: pretty
+permalink: /work/:title/
 gems:
 - jekyll-feed
 exclude:
