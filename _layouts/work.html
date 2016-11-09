@@ -17,7 +17,27 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+
+    {% if page.client %}
+      <p class="post-client"><strong>Client</strong> {{ page.client }}</p>
+    {% endif %}
+
+    {% if page.categories %}
+      <p class="post-categories"><strong>Categories</strong> {% assign categories = page.categories %}{% for category in categories %}{% if forloop.last == true %}{{ category | capitalize }}{% else %}{{ category | capitalize }}, {% endif %}{% endfor %}</p>
+    {% endif %}
+
+    {% if page.solutions %}
+      <p class="post-solutions"><strong>Solutions</strong> {% assign solutions = page.solutions %}{% for solution in solutions %}{% if forloop.last == true %}{{ solution | capitalize }}{% else %}{{ solution | capitalize }}, {% endif %}{% endfor %}</p>
+    {% endif %}
+
+    {% if page.year_date %}
+      <p class="post-year"><strong>Year</strong> {{ page.year_date | date: "%Y" }}</p>
+    {% endif %}
+    
+    {% if page.link %}
+      <p class="post-link"><a href="{{ page.link }}" rel="nofollow" target="_blank">View project</a></p>
+    {% endif %}
+
   </header>
 
   <div class="post-content" itemprop="articleBody">
