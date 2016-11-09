@@ -3,20 +3,22 @@ title: Land Ho
 timezone: Europe/Rome
 collections:
   posts:
-    title: Posts
+    title: Works
     output: true
   uploads:
     title: Uploads
     output: true
-  works:
-    title: Works
-    output: true
 defaults:
 - scope:
     path: ''
-    type: works
+    type: pages
   values:
-    layout: work
+    layout: page
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
     size: large
     thumbnail_image_file: 
     thumbnail_video_file: 

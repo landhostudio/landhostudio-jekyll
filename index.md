@@ -1,6 +1,5 @@
 ---
 title: Works
 position: 0
-layout: works
+layout: posts
 ---
-
