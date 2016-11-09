@@ -20,6 +20,7 @@ defaults:
   values:
     layout: post
     permalink: "/work/:title/"
+    position: 
     size: large
     thumbnail_image_file: 
     thumbnail_video_file: 
