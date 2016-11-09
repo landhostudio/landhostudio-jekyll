@@ -8,7 +8,7 @@ tags:
 - branding
 - copywriting
 - video
-position: 0
+position: 1
 size: large
 thumbnail_image_file: "/uploads/glix-hero.jpg"
 thumbnail_video_file: "/uploads/glix-hero-preview.mp4"
