@@ -9,20 +9,21 @@ tags:
 - cover
 - band
 - music
+thumbnail_image_file: "/uploads/il-cielo-di-bagdad-hero.jpg"
 client: Il cielo di Bagdad
 year_date: 2015-11-11 00:00:00 +01:00
 grid:
 - size: huge
-  image_file: 
+  image_file: "/uploads/il-cielo-di-bagdad-1.jpg"
   video_file: 
 - size: huge
-  image_file: 
+  image_file: "/uploads/il-cielo-di-bagdad-2.jpg"
   video_file: 
 - size: huge
-  image_file: 
+  image_file: "/uploads/il-cielo-di-bagdad-3.jpg"
   video_file: 
 - size: huge
-  image_file: 
+  image_file: "/uploads/il-cielo-di-bagdad-4.jpg"
   video_file: 
 ---
 
