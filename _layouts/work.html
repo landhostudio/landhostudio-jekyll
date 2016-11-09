@@ -23,5 +23,21 @@ layout: default
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
+  
+  {% if page.grid %}
+    <div class="post-grid">
+      {% for item in page.grid %}
+        <div class="post-grid-item{% if item.size == 'half' %} post-grid-item--half{% elsif item.size == 'huge' %} post-grid-item--huge{% endif %}">
+          {% if item.image_file and item.video_file %}
+            <video preload="none" muted loop controls poster="{{ item.image_file }}">
+              <source src="{{ item.video_file }}" type="video/mp4">
+            </video>
+          {% elsif item.image_file %}
+            <img src="{{ item.image_file }}" alt="">
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
 
 </article>
