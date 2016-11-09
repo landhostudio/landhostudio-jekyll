@@ -37,6 +37,7 @@ url:
 twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown
+permalink: pretty
 gems:
 - jekyll-feed
 exclude:
