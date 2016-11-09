@@ -7,7 +7,7 @@ categories:
 tags:
 - photography
 - print
-position: 1
+position: 2
 size: medium
 thumbnail_image_file: "/uploads/argentero_winter-hero.jpg"
 client: Argentero
