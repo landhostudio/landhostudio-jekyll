@@ -23,18 +23,23 @@ grid:
 - size: half
   image_file: "/uploads/glix-1.jpg"
   video_file: "/uploads/glix-1.mp4"
+  is_video_audio: 
 - size: half
   image_file: "/uploads/glix-2.jpg"
   video_file: "/uploads/glix-2.mp4"
+  is_video_audio: false
 - size: half
   image_file: "/uploads/glix-3.jpg"
   video_file: "/uploads/glix-3.mp4"
+  is_video_audio: false
 - size: half
   image_file: "/uploads/glix-4.jpg"
   video_file: "/uploads/glix-4.mp4"
+  is_video_audio: false
 - size: huge
   image_file: "/uploads/glix-5.jpg"
   video_file: 
+  is_video_audio: false
 works:
 - No bad days
 - Argentero winter
