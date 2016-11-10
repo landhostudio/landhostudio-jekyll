@@ -40,10 +40,6 @@ grid:
   image_file: "/uploads/argentero_winter-6.jpg"
   video_file: 
   is_video_audio: false
-works:
-- No bad days
-- Argentero winter
-- Glix
 ---
 
 Argentero è un brand di abbigliamento da donna che ha base a Roma.

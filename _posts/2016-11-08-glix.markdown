@@ -40,10 +40,6 @@ grid:
   image_file: "/uploads/glix-5.jpg"
   video_file: 
   is_video_audio: false
-works:
-- No bad days
-- Argentero winter
-- Glix
 ---
 
 Glix è una fashion-app dove ogni utente ha la possibilità di acquistare online tramite dei personal shopper da lui selezionati.

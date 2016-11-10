@@ -44,8 +44,6 @@ defaults:
       image_file: 
       video_file: 
       is_video_audio: false
-    works:
-    - 
 email: hello@landhostudio.com
 description: An awesome description of our new site
 footer:
