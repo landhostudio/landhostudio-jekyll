@@ -56,8 +56,6 @@ footer:
     costante. Nasciamo nel 2014. Siamo una famiglia.
 baseurl: 
 url: 
-twitter_username: jekyllrb
-github_username: jekyll
 markdown: kramdown
 permalink: pretty
 gems:
