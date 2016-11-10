@@ -61,4 +61,16 @@ layout: default
     </div>
   {% endif %}
 
+  <aside>
+    <h2>Related projects</h2>
+
+    {% if page.previous %}
+      {% include post-preview.html handle=page.previous direction=next %}
+    {% endif %}
+
+    {% if page.next %}
+      {% include post-preview.html handle=page.next direction=prev %}    
+    {% endif %}
+  </aside>
+
 </article>
