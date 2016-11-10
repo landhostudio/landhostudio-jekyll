@@ -43,6 +43,7 @@ defaults:
     - size: half
       image_file: 
       video_file: 
+      is_video_audio: false
     works:
     - 
 email: hello@landhostudio.com
