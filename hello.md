@@ -15,15 +15,25 @@ columns:
 - title: What we do
   text: |-
     * Advertising
+
     * Art Direction
+
     * Branding
+
     * Commercials
+
     * Concept Development
+
     * Creative Direction
+
     * Graphic Design
+
     * Photography
+
     * Print
+
     * Video Design
+
     * Website Design
 - title: Bio
   text: Ever since they began collaborating in 2007, the artists and filmmakers Lernert
@@ -35,31 +45,45 @@ columns:
 - title: Collaborations
   text: |-
     * Arci Roma
+
     * Atac Roma
+
     * Azienda trasporti milanesi
+
     * Comune di Milano
+
     * ExpoVenlo 2012
+
     * Inarea
+
     * Istituto Europeo di Design
+
     * Italo
+
     * Leo Burnett
+
     * McCann World group
+
     * Menarini
+
     * MiCo
+
     * Poste italiane
+
     * Roma capitale
+
     * Vitecuture
+
     * Unipol
+
     * Zètema
 - title: Dicono di noi
   text: |-
-    > Landho Fiorini?
-    <br>
-    Edoardo Calcutta, 28 ottobre 2016
+    > “Landho Fiorini?”
+    > Edoardo Calcutta, 28 ottobre 2016
 
-    > Landho Fiorini?
-    <br>
-    David Naman, 28 ottobre 2016
+    > “Landho Fiorini?”
+    > David Naman, 28 ottobre 2016
 - title: Follow us
   text: |-
     * [Facebook](https://www.facebook.com/landhofamily/)
