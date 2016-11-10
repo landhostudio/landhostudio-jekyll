@@ -53,10 +53,12 @@ columns:
     * Zètema
 - title: Dicono di noi
   text: |-
-    > “Landho Fiorini?”
+    > Landho Fiorini?
+    <br>
     Edoardo Calcutta, 28 ottobre 2016
 
-    > “Landho Fiorini?”
+    > Landho Fiorini?
+    <br>
     David Naman, 28 ottobre 2016
 - title: Follow us
   text: |-
