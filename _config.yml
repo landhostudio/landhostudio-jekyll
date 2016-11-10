@@ -65,6 +65,8 @@ baseurl:
 url: 
 markdown: kramdown
 permalink: pretty
+sass:
+  style: compressed
 gems:
 - jekyll-feed
 - jekyll-paginate
