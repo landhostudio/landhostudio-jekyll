@@ -19,21 +19,27 @@ grid:
 - size: huge
   image_file: "/uploads/argentero_winter-1.jpg"
   video_file: 
+  is_video_audio: false
 - size: half
   image_file: "/uploads/argentero_winter-2.jpg"
   video_file: 
+  is_video_audio: false
 - size: half
   image_file: "/uploads/argentero_winter-3.jpg"
   video_file: 
+  is_video_audio: false
 - size: huge
   image_file: "/uploads/argentero_winter-4.jpg"
   video_file: 
+  is_video_audio: false
 - size: half
   image_file: "/uploads/argentero_winter-5.jpg"
   video_file: 
+  is_video_audio: false
 - size: half
   image_file: "/uploads/argentero_winter-6.jpg"
   video_file: 
+  is_video_audio: false
 works:
 - No bad days
 - Argentero winter
