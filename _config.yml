@@ -39,6 +39,9 @@ defaults:
     - 
 email: hello@landhostudio.com
 description: An awesome description of our new site
+footer:
+- title: 
+  text: 
 baseurl: 
 url: 
 twitter_username: jekyllrb
