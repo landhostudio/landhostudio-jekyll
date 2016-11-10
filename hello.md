@@ -6,9 +6,12 @@ columns:
 - title: Contact
   text: |-
     [Loft Coho, Via Vertumno 2c 00157 Rome, Italy](https://maps.google.com/maps?q=Coho\+Loft\+in\+Rome\+Vertumno\+2\+c,\+00157\+Rome,\+Italy)
-    <hello@landhostudio.com>
-    [Daniel +39 347 08 74 994](tel:+393470874994)
-    [Danilo +39 320 07 55 122](tel:+393200755122)
+
+    [hello@landhostudio.com](mailto:hello@landhostudio.com)
+
+    [Daniel \+39 347 08 74 994](tel:\+393470874994)
+
+    [Danilo \+39 320 07 55 122](tel:\+393200755122)
 - title: What we do
   text: |-
     * Advertising
