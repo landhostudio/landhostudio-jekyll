@@ -23,7 +23,7 @@ grid:
 - size: half
   image_file: "/uploads/glix-1.jpg"
   video_file: "/uploads/glix-1.mp4"
-  is_video_audio: 
+  is_video_audio: false
 - size: half
   image_file: "/uploads/glix-2.jpg"
   video_file: "/uploads/glix-2.mp4"
