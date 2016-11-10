@@ -73,8 +73,8 @@ compress_html:
   endings: all
   profile: false
   startings:
-    - head
-    - body
+  - head
+  - body
 gems:
 - jekyll-feed
 - jekyll-paginate
