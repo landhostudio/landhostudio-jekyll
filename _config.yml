@@ -72,7 +72,9 @@ compress_html:
   comments: all
   endings: all
   profile: true
-  startings: [head, body]
+  startings:
+  - head
+  - body
 gems:
 - jekyll-feed
 - jekyll-paginate
