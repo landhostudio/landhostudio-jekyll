@@ -50,7 +50,7 @@ layout: default
         <div class="post-grid-item{% if item.size == 'half' %} post-grid-item--half{% elsif item.size == 'huge' %} post-grid-item--huge{% endif %}">
           {% if item.image_file and item.video_file %}
             <img src="{{ item.image_file }}" alt="">
-            <video preload="none" muted loop>
+            <video preload="none" {% if item.is_video_audio == false %} muted {% endif %} loop>
               <source src="{{ item.video_file }}" type="video/mp4">
             </video>
           {% elsif item.image_file %}
