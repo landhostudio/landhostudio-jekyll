@@ -19,15 +19,19 @@ grid:
 - size: huge
   image_file: "/uploads/il-cielo-di-bagdad-1.jpg"
   video_file: 
+  is_video_audio: false
 - size: huge
   image_file: "/uploads/il-cielo-di-bagdad-2.jpg"
   video_file: 
+  is_video_audio: false
 - size: huge
   image_file: "/uploads/il-cielo-di-bagdad-3.jpg"
   video_file: 
+  is_video_audio: false
 - size: huge
   image_file: "/uploads/il-cielo-di-bagdad-4.jpg"
   video_file: 
+  is_video_audio: false
 works:
 - Glix
 - Argentero winter
