@@ -71,15 +71,10 @@ compress_html:
   clippings: all
   comments: all
   endings: all
-<<<<<<< HEAD
   profile: false
-  startings: [head, body]
-=======
-  profile: true
   startings:
-  - head
-  - body
->>>>>>> origin/master
+    - head
+    - body
 gems:
 - jekyll-feed
 - jekyll-paginate
