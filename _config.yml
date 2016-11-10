@@ -16,6 +16,14 @@ defaults:
     layout: page
 - scope:
     path: ''
+    type: pages
+  values:
+    layout: hello
+    columns:
+    - title: 
+      text: 
+- scope:
+    path: ''
     type: posts
   values:
     layout: post
@@ -43,7 +51,7 @@ footer:
 - title: Family
   text: |-
     Ci incontriamo tutti i giorni al
-    [Loft Coho, Via Vertumno 2c 00157 Roma, Italia](https://maps.google.com/maps?q=Coho\+Loft\+in\+Rome\+Vertumno\+2\+c,\+00157\+Rome,\+Italy)
+    [Loft Coho, Via Vertumno 2c 00157 Rome, Italy](https://maps.google.com/maps?q=Coho\+Loft\+in\+Rome\+Vertumno\+2\+c,\+00157\+Rome,\+Italy)
 - title: Keep in touch
   text: |-
     T. [(\+39) 347 08 74 994](tel:\+393470874994)
@@ -56,8 +64,6 @@ footer:
     costante. Nasciamo nel 2014. Siamo una famiglia.
 baseurl: 
 url: 
-twitter_username: jekyllrb
-github_username: jekyll
 markdown: kramdown
 permalink: pretty
 gems:
