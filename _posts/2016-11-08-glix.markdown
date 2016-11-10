@@ -11,7 +11,7 @@ tags:
 position: 1
 size: large
 thumbnail_image_file: "/uploads/glix-hero.jpg"
-thumbnail_video_file: "/uploads/glix-hero-preview.mp4"
+thumbnail_video_file: "/uploads/glix-preview.mp4"
 video: 117172709
 client: Glix
 payoff: Shop everywear you are
@@ -22,19 +22,19 @@ link: http://glix.info
 grid:
 - size: half
   image_file: "/uploads/glix-1.jpg"
-  video_file: 
+  video_file: "/uploads/glix-1.mp4"
 - size: half
   image_file: "/uploads/glix-2.jpg"
-  video_file: 
+  video_file: "/uploads/glix-2.mp4"
 - size: half
   image_file: "/uploads/glix-3.jpg"
-  video_file: 
+  video_file: "/uploads/glix-3.mp4"
 - size: half
   image_file: "/uploads/glix-4.jpg"
-  video_file: 
+  video_file: "/uploads/glix-4.mp4"
 - size: huge
   image_file: "/uploads/glix-5.jpg"
-  video_file: "/uploads/glix-preview.mp4"
+  video_file: 
 works:
 - No bad days
 - Argentero winter
