@@ -16,6 +16,14 @@ defaults:
     layout: page
 - scope:
     path: ''
+    type: hello
+  values:
+    layout: hello
+    columns:
+    - title: 
+      text: 
+- scope:
+    path: ''
     type: posts
   values:
     layout: post
