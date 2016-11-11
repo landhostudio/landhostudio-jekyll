@@ -80,7 +80,6 @@ exclude:
 - ".editorconfig"
 - _scripts
 - _stylesheets
-- ".editorconfig"
 - gulpfile.js
 - package.json
 - README.md
