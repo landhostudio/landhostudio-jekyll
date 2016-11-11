@@ -74,8 +74,15 @@ compress_html:
 gems:
 - jekyll-feed
 - jekyll-paginate
-source: ./src
-destination: ./dist
 exclude:
+- Gemfile
+- Gemfile.lock
+- ".editorconfig"
 - "_scripts"
 - "_stylesheets"
+- ".editorconfig"
+- "gulpfile.js"
+- "package.json"
+- "README.md"
+- "node_modules"
+- "webpack.config.js"
