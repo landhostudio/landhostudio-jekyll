@@ -65,16 +65,12 @@ baseurl:
 url: 
 markdown: kramdown
 permalink: pretty
-sass:
-  style: compressed
 compress_html:
   clippings: all
   comments: all
   endings: all
   profile: false
-  startings:
-  - head
-  - body
+  startings: 
 gems:
 - jekyll-feed
 - jekyll-paginate
@@ -82,3 +78,10 @@ exclude:
 - Gemfile
 - Gemfile.lock
 - ".editorconfig"
+- _scripts
+- _stylesheets
+- gulpfile.js
+- package.json
+- README.md
+- node_modules
+- webpack.config.js
