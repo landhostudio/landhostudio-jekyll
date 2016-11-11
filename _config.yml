@@ -70,7 +70,7 @@ compress_html:
   comments: all
   endings: all
   profile: false
-  startings:
+  startings: 
 gems:
 - jekyll-feed
 - jekyll-paginate
@@ -78,11 +78,11 @@ exclude:
 - Gemfile
 - Gemfile.lock
 - ".editorconfig"
-- "_scripts"
-- "_stylesheets"
+- _scripts
+- _stylesheets
 - ".editorconfig"
-- "gulpfile.js"
-- "package.json"
-- "README.md"
-- "node_modules"
-- "webpack.config.js"
+- gulpfile.js
+- package.json
+- README.md
+- node_modules
+- webpack.config.js
