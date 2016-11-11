@@ -2,6 +2,7 @@
 title: No bad days
 date: 2016-11-09 17:03:00 +01:00
 categories:
+- src
 - photography
 - print
 tags:
