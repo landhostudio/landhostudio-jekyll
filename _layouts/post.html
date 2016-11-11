@@ -1,0 +1,76 @@
+---
+layout: default
+---
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  {% if page.thumbnail_image_file and page.video %}
+    <div class="post-media">
+      <img src="{{ page.thumbnail_image_file }}" alt="">
+      <iframe src='https://player.vimeo.com/video/{{ page.video }}' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+    </div>
+  {% elsif page.thumbnail_image_file %}
+    <div class="post-media">
+      <img src="{{ page.thumbnail_image_file }}" alt="">
+    </div>
+  {% endif %}
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+
+    {% if page.client %}
+      <p class="post-client"><strong>Client</strong> {{ page.client }}</p>
+    {% endif %}
+
+    {% if page.kind %}
+      <p class="post-categories"><strong>Category</strong> {% assign kinds = page.kind %}{% for kind in kinds %}{% if forloop.last == true %}{{ kind | capitalize }}{% else %}{{ kind | capitalize }}, {% endif %}{% endfor %}</p>
+    {% endif %}
+
+    {% if page.categories %}
+      <p class="post-solutions"><strong>Solutions</strong> {% assign categories = page.categories %}{% for category in categories %}{% if forloop.last == true %}{{ category | capitalize }}{% else %}{{ category | capitalize }}, {% endif %}{% endfor %}</p>
+    {% endif %}
+
+    {% if page.year_date %}
+      <p class="post-year"><strong>Year</strong> {{ page.year_date | date: "%Y" }}</p>
+    {% endif %}
+    
+    {% if page.link %}
+      <p class="post-link"><a href="{{ page.link }}" rel="nofollow" target="_blank">View project</a></p>
+    {% endif %}
+
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+  
+  {% if page.grid %}
+    <div class="post-grid">
+      {% for item in page.grid %}
+        <div class="post-grid-item{% if item.size == 'half' %} post-grid-item--half{% elsif item.size == 'huge' %} post-grid-item--huge{% endif %}">
+          {% if item.image_file and item.video_file %}
+            <img src="{{ item.image_file }}" alt="">
+            <video preload="none" {% if item.is_video_audio == false %} muted {% endif %} loop>
+              <source src="{{ item.video_file }}" type="video/mp4">
+            </video>
+          {% elsif item.image_file %}
+            <img src="{{ item.image_file }}" alt="">
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  <aside>
+    <h2>Related projects</h2>
+
+    {% if page.previous %}
+      {% include post-preview.html handle=page.previous direction=next %}
+    {% endif %}
+
+    {% if page.next %}
+      {% include post-preview.html handle=page.next direction=prev %}    
+    {% endif %}
+  </aside>
+
+</article>
