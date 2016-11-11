@@ -24,6 +24,19 @@ defaults:
       text: 
 - scope:
     path: ''
+    type: pages
+  values:
+    layout: posts
+    showcase:
+    - title: 
+      link: 
+      image_file: 
+      video_file: 
+    quotes:
+    - quote: 
+      author: 
+- scope:
+    path: ''
     type: posts
   values:
     layout: post
