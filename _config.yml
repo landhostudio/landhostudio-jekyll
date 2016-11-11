@@ -16,7 +16,6 @@ defaults:
     layout: page
 - scope:
     path: ''
-    type: pages
   values:
     layout: hello
     columns:
@@ -24,7 +23,6 @@ defaults:
       text: 
 - scope:
     path: ''
-    type: pages
   values:
     layout: posts
     showcase:
