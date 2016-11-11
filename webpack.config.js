@@ -2,11 +2,11 @@ var webpack = require('webpack');
 
 module.exports = {
   entry: [
-    "./_scripts/libs.js",
-    "./_scripts/scripts.js"
+    "./src/_scripts/libs.js",
+    "./src/_scripts/scripts.js"
   ],
   output: {
-    path: __dirname + "./_site/js/",
+    path: __dirname + "./dist/js/",
     filename: "all.js"
   },
   plugins: [

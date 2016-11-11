@@ -75,12 +75,15 @@ gems:
 - jekyll-feed
 - jekyll-paginate
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+source: ./src
+destination: ./dist
+>>>>>>> parent of 15f2181... Normalize Jekyll structure to default for Siteleaf compatibility
 exclude:
-- Gemfile
-- Gemfile.lock
-- ".editorconfig"
 - "_scripts"
 - "_stylesheets"
+<<<<<<< HEAD
 - ".editorconfig"
 - "gulpfile.js"
 - "package.json"
@@ -94,3 +97,5 @@ exclude:
 - _scripts
 - _stylesheets
 >>>>>>> origin/master
+=======
+>>>>>>> parent of 15f2181... Normalize Jekyll structure to default for Siteleaf compatibility

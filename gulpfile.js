@@ -20,8 +20,8 @@ var browserSync   = require('browser-sync');
 
 // Paths -----------------------------------------------------------------------
 
-var source = '.';
-var destination = './_site';
+var source = './src';
+var destination = './dist';
 
 // Build -----------------------------------------------------------------------
 
