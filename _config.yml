@@ -70,10 +70,11 @@ compress_html:
   comments: all
   endings: all
   profile: false
-  startings:
+  startings: 
 gems:
 - jekyll-feed
 - jekyll-paginate
+<<<<<<< HEAD
 exclude:
 - Gemfile
 - Gemfile.lock
@@ -86,3 +87,10 @@ exclude:
 - "README.md"
 - "node_modules"
 - "webpack.config.js"
+=======
+source: "./src"
+destination: "./dist"
+exclude:
+- _scripts
+- _stylesheets
+>>>>>>> origin/master
