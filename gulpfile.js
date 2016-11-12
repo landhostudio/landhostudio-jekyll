@@ -14,6 +14,11 @@ var sass          = require('gulp-sass'),
     bourbon       = require('node-bourbon').includePaths,
     neat          = require('node-neat').includePaths;
 
+var cheerio       = require('gulp-cheerio'),
+    svgstore      = require('gulp-svgstore'),
+    svgmin        = require('gulp-svgmin'),
+    path          = require('path');
+
 var webPackStream = require('webpack-stream');
 
 var browserSync   = require('browser-sync');
@@ -80,16 +85,44 @@ gulp.task('scripts', function() {
     .pipe(gulp.dest(destination + '/dist/js'));
 });
 
+// Icons -----------------------------------------------------------------------
+
+gulp.task('icons', function () {
+  return gulp.src(source + '/src/icons/**/*.svg')
+    .pipe(svgmin(function (file) {
+      var prefix = path.basename(file.relative, path.extname(file.relative));
+      return {
+        plugins: [{
+          removeDoctype: true
+        }, {
+          removeComments: true
+        }, {
+          cleanupIDs: {
+            prefix: prefix + '-',
+            minify: false
+          }
+        }]
+      }
+    }))
+    .pipe(svgstore({ inlineSvg: true }))
+    .pipe(cheerio(function ($) {
+      $('[fill]').removeAttr('fill');
+      $('svg').attr('display', 'none');
+    }))
+    .pipe(gulp.dest(source + '/_includes'));
+});
+
 // Watch -----------------------------------------------------------------------
 
 gulp.task('watch', function () {
   gulp.watch(source + '/src/stylesheets/**/*.{scss,sass}', ['stylesheets']);
   gulp.watch(source + '/src/scripts/**/*.js', ['scripts']);
+  gulp.watch(source + '/src/icons/**/*.svg', ['icons', 'jekyll-rebuild']);
   gulp.watch(source + '/**/*.{html,markdown,md}', ['jekyll-rebuild']);
 })
 
 // Default ---------------------------------------------------------------------
 
 gulp.task('default', function() {
-  gulp.start('stylesheets', 'scripts', 'browser-sync', 'watch');
+  gulp.start('stylesheets', 'scripts', 'icons', 'browser-sync', 'watch');
 });
