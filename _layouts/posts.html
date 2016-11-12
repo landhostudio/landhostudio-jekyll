@@ -2,6 +2,33 @@
 layout: default
 ---
 
+{% if page.showcase %}
+  <div class="Showcase">
+    {% for case in page.showcase %}
+      <div class="Showcase__Item">
+
+        {% if case.title and case.link %}
+          <h1>
+            <a href="{{ case.link }}">{{ case.title }}</a>
+          </h1>
+        {% elsif case.title %}
+          <h1>{{ case.title }}</h1>
+        {% endif %}
+
+        {% if case.image_file and case.video_file %}
+          <img src="{{ case.image_file }}" alt="">
+          <video preload="none" muted>
+            <source src="{{ case.video_file }}" type="video/mp4">
+          </video>
+        {% elsif case.image_file %}
+          <img src="{{ case.image_file }}" alt="">
+        {% endif %}
+
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}
+
 <div class="home">
 
   <h1 class="page-heading">Works</h1>
