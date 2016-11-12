@@ -15,14 +15,14 @@ defaults:
   values:
     layout: page
 - scope:
-    path: ''
+    path: 'hello'
   values:
     layout: hello
     columns:
     - title: 
       text: 
 - scope:
-    path: ''
+    path: 'posts'
   values:
     layout: posts
     showcase:
