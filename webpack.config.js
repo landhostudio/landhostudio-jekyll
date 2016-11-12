@@ -9,6 +9,12 @@ module.exports = {
     path: __dirname + "./dist/js/",
     filename: "all.js"
   },
+  resolve: {
+    alias: {
+      'masonry': 'masonry-layout',
+      'isotope': 'isotope-layout'
+    }
+  },
   plugins: [
     new webpack.ProvidePlugin({
       '$': 'jquery',
