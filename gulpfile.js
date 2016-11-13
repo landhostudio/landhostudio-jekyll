@@ -4,7 +4,8 @@ var jekyll        = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 
 var gulp          = require('gulp'),
     gutil         = require('gulp-util'),
-    childprocess  = require('child_process');
+    childprocess  = require('child_process'),
+    runSequence   = require('run-sequence');
 
 var sass          = require('gulp-sass'),
     combineMq     = require('gulp-combine-mq'),
@@ -123,6 +124,6 @@ gulp.task('watch', function () {
 
 // Default ---------------------------------------------------------------------
 
-gulp.task('default', function() {
-  gulp.start('stylesheets', 'scripts', 'icons', 'browser-sync', 'watch');
+gulp.task('default', function(callback) {
+  runSequence(['stylesheets', 'scripts', 'icons'], 'browser-sync', 'watch', callback);
 });

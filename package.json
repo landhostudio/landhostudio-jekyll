@@ -9,6 +9,7 @@
     "isotope-layout": "^3.0.1",
     "jquery": "^3.1.1",
     "jquery-bridget": "^2.0.1",
+    "run-sequence": "^1.2.2",
     "viewport-units-buggyfill": "^0.6.0",
     "vimeo-jquery-api": "^0.10.3"
   },
