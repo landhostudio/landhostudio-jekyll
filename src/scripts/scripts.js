@@ -1,9 +1,9 @@
 // Requires
 
-var $                   = require('jquery');
-var jQBridget           = require('jquery-bridget');
-var Flickity            = require('flickity');
-var Isotope             = require('isotope-layout');
+var $                    = require('jquery');
+var jQBridget            = require('jquery-bridget');
+var Flickity             = require('flickity');
+var Isotope              = require('isotope-layout');
 
 // jQueryfy
 
@@ -15,16 +15,16 @@ $(function() {
 
   'use strict';
   
-  var $body             = $('body');
+  var $body              = $('body');
   
-  var $header           = $('.Header'),
-      headerOpened      = 'Header--Opened',
-      $headerNav        = $('.Header__Nav'),
-      $headerNavButton  = $('.Header__Nav__Button');
-    
-  var $grid             = $('.Grid'),
-      $gridItems        = $('.Grid__Items'),
-      $gridItem         = $('.Grid__Item');
+  var $header            = $('.Header'),
+      $headerButtonOpen  = $('.Header__Button--Open'),
+      $headerButtonClose = $('.Header__Button--Close'),
+      headerOpened       = 'Header--Opened';
+
+  var $grid              = $('.Grid'),
+      $gridItems         = $('.Grid__Items'),
+      $gridItem          = $('.Grid__Item');
 
   var init = function() {
     $body.addClass('js');
@@ -34,13 +34,25 @@ $(function() {
   };
   
   function initNav() {
-    $headerNavButton.click(function (event) {
+
+    $headerButtonOpen.click(function (event) {
       event.preventDefault();
-      
-      $header.toggleClass(headerOpened);
+
+      $header.addClass(headerOpened);
+      console.log('nav is open');
 
       return false;
     });
+
+    $headerButtonClose.click(function (event) {
+      event.preventDefault();
+
+      $header.removeClass(headerOpened);
+      console.log('nav is closed');
+
+      return false;
+    });
+
     console.log('nav is on');
   };
   

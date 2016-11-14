@@ -1,4 +1,5 @@
 <header role="banner" class="Header">
+
   <h1 class="Header__Title">
     <a href="{{ "/" | prepend:baseurl }}">
       <span class="Hidden">{{ site.title }}</span>
@@ -7,7 +8,22 @@
       </svg>
     </a>
   </h1>
-  
+
+  <div class="Header__Buttons">
+    <button class="Header__Button Header__Button--Open">
+      <span class="Hidden">Open navigation</span>
+      <svg>
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#nav"></use>
+      </svg>
+    </button>
+    <button class="Header__Button Header__Button--Close">
+      <span class="Hidden">Close navigation</span>
+      <svg>
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#nav-close"></use>
+      </svg>
+    </button>
+  </div>
+
   <nav role="navigation" class="Header__Nav">
     <h1 class="Hidden">Navigation</h1>
 
@@ -34,15 +50,6 @@
       {% endfor %}
 
     </ul>
-    
-    <button class="Header__Nav__Button">
-      <span class="Hidden">Open navigation</span>
-      <svg>
-        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#nav"></use>
-      </svg>
-      <svg>
-        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#nav-close"></use>
-      </svg>
-    </button>
   </nav>
+
 </header>

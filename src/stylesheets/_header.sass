@@ -1,20 +1,139 @@
 .Header
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  
+  display: flex
+  flex-flow: wrap
+  justify-content: space-between
+  
+  padding: rem-calc(24) $gutter
 
+  @include media($from-small)
+    padding-top: rem-calc(32)
+    padding-bottom: rem-calc(32)
   
   &__Title
-    
-      
-    img
-      
+    font-size: 1rem
+    line-height: 0
+    flex: 1
+
+    a
+      line-height: 0
+
+    svg
+      width: rem-calc(166)
+      height: rem-calc(24)
+      fill: $color-1
+
+      @include media($from-small)
+        width: rem-calc(208)
+        height: rem-calc(30)
 
   &__Nav
+    @include media(max-width $to-small)
+      position: fixed
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      background-color: $color-3
+      transition: all 250ms ease-in-out
+      visibility: hidden
+      opacity: 0
     
+    @include media($from-small)
       
+
+    .Header--Opened &
+      @include media(max-width $to-small)
+        visibility: visible
+        opacity: 1
+
     &__Items
-      
+      list-style: none
+      margin: 0
+      padding: 0
+
+      @include media(max-width $to-small)
+        position: absolute
+        top: 50%
+        left: 0
+        width: 100%
+        transform: translateY(-50%)
+        text-align: center
+
+      @include media($from-small)
         
     &__Item
+      font-weight: bold
+      font-size: rem-calc(24)
 
+      @include media(max-width $to-small)
+        margin: 0 $gutter
 
-    &__Button
+      @include media($from-small)
+        display: inline-block
+        line-height: 1
+        margin-left: rem-calc(32)
+        
+        &:first-of-type
+          margin-left: 0
+          
+      @include media($from-medium)
+        margin-left: rem-calc(48)
       
+      @include media($from-large)
+        margin-left: rem-calc(64)
+
+      a
+        color: $color-1
+
+        @include media(max-width $to-small)
+          display: block
+          padding: rem-calc(8)
+          background-color: transparent
+          border-radius: 3px
+          transition: background 150ms ease-out
+
+          &:focus,
+          &:hover
+            background-color: lighten($color-3, 5%)
+
+        @include media($from-small)
+          transition: opacity 150ms ease-out
+
+          &:focus,
+          &:hover
+            opacity: 0.5
+
+  &__Buttons
+    position: relative
+    z-index: 1
+
+    @include media($from-small)
+      display: none
+
+  &__Button
+    line-height: 0
+    width: rem-calc(24)
+    height: rem-calc(20)
+    cursor: pointer
+
+    svg
+      width: rem-calc(24)
+      height: rem-calc(20)
+      fill: $color-1
+
+    &--Open
+      display: inline-block
+
+      .Header--Opened &
+        display: none
+
+    &--Close
+      display: none
+
+      .Header--Opened &
+        display: inline-block

@@ -10,13 +10,20 @@ $font-family: 'Karla', sans-serif
 $line-height: 1.4
 
 // Media Queries ---------------------------------------------------------------
+// Usage case one: @include media($from-small)
+// Usage case two: @include media(max-width $to-small)
 
-$screen: "only screen"
+$from-small: em-calc(640)
+$to-small: $from-small - em-calc(1)
 
-$small-breakpoint: em-calc(640)
-$medium-breakpoint: em-calc(1024)
-$large-breakpoint: em-calc(1440)
-$huge-breakpoint: em-calc(1920)
+$from-medium: em-calc(1024)
+$to-medium: $from-medium - em-calc(1)
+
+$from-large: em-calc(1440)
+$to-large: $from-large - em-calc(1)
+
+$from-huge: em-calc(1920)
+$to-huge: $from-huge - em-calc(1)
 
 // Layout ----------------------------------------------------------------------
 
