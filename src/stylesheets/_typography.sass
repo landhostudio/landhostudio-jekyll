@@ -7,17 +7,16 @@ body
   line-height: $line-height
   font-weight: normal
   text-rendering: optimizeLegibility
-
-  // Add costant rendering when transition and animations is active
+  -moz-osx-font-smoothing: grayscale
   -webkit-font-smoothing: antialiased
 
-  @media (min-width: $width-1)
+  @include media($small-breakpoint)
     font-size: 112.5%
   
-  @media (min-width: $width-2)
+  @include media($medium-breakpoint)
     font-size: 125%
   
-  @media (min-width: $width-3)
+  @include media($large-breakpoint)
     font-size: 150%
 
 h1, h2, h3, h4, h5, h6
