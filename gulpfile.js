@@ -113,6 +113,14 @@ gulp.task('icons', function () {
     .pipe(gulp.dest(source + '/_includes'));
 });
 
+// Fonts -----------------------------------------------------------------------
+
+gulp.task('fonts', function() {
+  return gulp.src(source + '/src/webfonts/**/*')
+    .pipe(gulp.dest(source + '/dist/webfonts'))
+    .pipe(gulp.dest(destination + '/dist/webfonts'));
+});
+
 // Watch -----------------------------------------------------------------------
 
 gulp.task('watch', function () {
@@ -125,5 +133,5 @@ gulp.task('watch', function () {
 // Default ---------------------------------------------------------------------
 
 gulp.task('default', function(callback) {
-  runSequence(['stylesheets', 'scripts', 'icons'], 'browser-sync', 'watch', callback);
+  runSequence(['stylesheets', 'scripts', 'icons', 'fonts'], 'browser-sync', 'watch', callback);
 });
