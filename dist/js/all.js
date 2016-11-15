@@ -18806,6 +18806,7 @@
 
 	// jQueryfy
 
+	$.bridget('flickity', Flickity, $);
 	$.bridget('isotope', Isotope, $);
 
 	// Main
@@ -18856,7 +18857,61 @@
 	  };
 	  
 	  function initFlickity() {
+
+	    var $carousel = $('.Showcase').flickity(),
+	        flkty = $carousel.data('flickity');
+
+	    $carousel.on( 'select.flickity', function() {
+	      if (flkty.selectedIndex) {
+	        console.log('item selected!')
+	      };
+	    });
+
+	    // -------
+
+	    if ($('.Showcase__Item').hasClass('Showcase__Item--Video')) {
+	      console.log('ok');
+	    };
+	    
+	    if ($('.Showcase__Item').hasClass('is-selected')) {
+	      console.log(':)');
+	    };
+	    
+	    // devo fare event trigger if class changed e iniziare: playShowcaseVideo();
+
+	    function playShowcaseVideo() {
+	      if ($('.Showcase__Item--Video').hasClass('is-selected')) {
+	        $('video', this).get(0).play();
+	      } else {
+	        $('video', this).get(0).load();
+	      };
+	    };
+	    
+	    $('.Showcase__Item').on('event', function() {
+	      $(this).addClass('Showcase__Item--Start').trigger('classChange');
+	    });
+
+	    // in another js file, far, far away
+	    $('.Showcase__Item').on('classChange', function() {
+	      console.log('class has been added!');
+	    });
+
+	    $('.Showcase__Item--Video').hover(playVideo, stopVideo);
+
+	    function playVideo(e) {
+	      $('video', this).get(0).volume = 0;
+	      $('video', this).get(0).pause();
+	      $('video', this).get(0).play();
+	    }
+
+	    function stopVideo(e) {
+	      $('video', this).get(0).volume = 0;
+	      $('video', this).get(0).pause();
+	      $('video', this).get(0).load(); // meglio fare pause così non jumpa o altrimenti animazione fade
+	    }
+
 	    console.log('flickity is on');
+
 	  };
 	  
 	  function initIsotope() {

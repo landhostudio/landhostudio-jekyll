@@ -7,6 +7,7 @@
   flex-flow: wrap
   justify-content: space-between
   padding: rem-calc(24) $gutter
+  z-index: 99
 
   @include media($from-small)
     padding-top: rem-calc(32)
@@ -105,16 +106,9 @@
           &:hover
             background-color: lighten($color-3, 5%)
 
-        @include media($from-small)
-          transition: opacity 150ms ease-out
-
-          &:focus,
-          &:hover
-            opacity: 0.5
-
   &__Buttons
     position: relative
-    z-index: 1
+    z-index: 98
 
     @include media($from-small)
       display: none
@@ -122,12 +116,12 @@
   &__Button
     line-height: 0
     width: rem-calc(24)
-    height: rem-calc(20)
+    height: rem-calc(24)
     cursor: pointer
 
     svg
       width: rem-calc(24)
-      height: rem-calc(20)
+      height: rem-calc(24)
       fill: $color-1
 
       .Header--Alternative &
