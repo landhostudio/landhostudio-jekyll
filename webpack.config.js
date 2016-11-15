@@ -2,6 +2,7 @@ var webpack = require('webpack');
 
 module.exports = {
   entry: [
+    "./src/scripts/modernizr.js",
     "./src/scripts/libs.js",
     "./src/scripts/scripts.js"
   ],
