@@ -32,6 +32,7 @@ $(function() {
     initNav();
     initFlickity();
     initIsotope();
+    initIsotopeVideo();
   };
   
   function initNav() {
@@ -116,8 +117,46 @@ $(function() {
   };
   
   function initIsotope() {
+
+    var $grid = $('.Grid__Items').isotope({
+      itemSelector: '.Grid__Item',
+      percentPosition: true,
+      masonry: {
+        columnWidth: '.Grid__Sizer',
+        gutter: '.Grid__Gutter'
+      },
+      transitionDuration: 750,
+      stagger: 30,
+      hiddenStyle: {
+        opacity: 0
+      },
+      visibleStyle: {
+        opacity: 1
+      }
+    });
+
+    $('.Grid__Filter').on('click', '.Grid__Button', function() {
+      var filterValue = $(this).attr('data-filter');
+      $grid.isotope({ filter: filterValue });
+      $('.Grid__Button').removeClass('Grid__Button--Active');
+      $(this).addClass('Grid__Button--Active');
+    });
+
     console.log('isotope is on');
   };
+
+  function initIsotopeVideo() {
+    $('.Grid__Item--HasVideo').hover(playVideo, stopVideo);
+
+    function playVideo(e) {
+      $('video', this).get(0).play();
+    }
+
+    function stopVideo(e) {
+      $('video', this).get(0).pause();
+      $('video', this).get(0).currentTime = 0;
+    }
+  }
 
   init();
 

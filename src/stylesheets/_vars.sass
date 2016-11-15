@@ -28,3 +28,21 @@ $to-huge: $from-huge - em-calc(1)
 // Layout ----------------------------------------------------------------------
 
 $gutter: 6%
+
+// Grid ------------------------------------------------------------------------
+
+$grid-gutter:        2%
+$grid-gap:           $grid-gutter / 3
+$grid-column:        (100% / 3)
+$grid-ratio:         (9 / 16) * 100%
+
+$grid-large-height:  (($grid-ratio / 3) + ($grid-gap * 2)) * 2
+$grid-small-height:  ($grid-large-height / 2) - ($grid-gap * 1.333333)
+$grid-medium-height: $grid-large-height
+$grid-half-height:   ($grid-ratio / 2) - $grid-gap
+
+$grid-small-width:   $grid-column - ($grid-gap * 2)
+$grid-medium-width:  $grid-small-width
+$grid-half-width:    (($grid-column * 3) / 2) - $grid-gap
+$grid-half-width:    ($grid-column * 1.5) - ($grid-gutter / 2)
+$grid-large-width:   ($grid-column * 2) - $grid-gap

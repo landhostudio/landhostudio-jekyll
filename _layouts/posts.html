@@ -2,62 +2,36 @@
 layout: default
 ---
 
-{% if page.showcase %}
-  <div class="Showcase" data-flickity='{ "setGallerySize": false, "contain": false, "autoPlay": 5000, "wrapAround": true, "percentPosition": true, "pageDots": false, "arrowShape": "M37.068 10.075c1.62-1.698 4.228-1.671 5.822.055l6.22 6.74c1.596 1.728 1.576 4.506-.052 6.212L31 42h63.746A4.248 4.248 0 0 1 99 46.246v7.508A4.252 4.252 0 0 1 94.746 58H31l18.058 18.918c1.625 1.702 1.646 4.486.052 6.212l-6.22 6.74c-1.596 1.728-4.208 1.748-5.822.055L1.932 53.075c-1.62-1.698-1.614-4.457 0-6.15l35.136-36.85z" }'>
+{% include showcase.html %}
+{% include quotes.html %}
 
-    {% for case in page.showcase %}
-      <div class="Showcase__Item{% if case.video_file %} Showcase__Item--Video{% endif %}">
+{{ content }}
 
-        {% if case.title %}
-          <div class="Showcase__Content">
-          {% if case.title and case.link %}
-            <h2>
-              <a href="{{ case.link }}">{{ case.title }}</a>
-            </h2>
-          {% elsif case.title %}
-            <h1>{{ case.title }}</h1>
-          {% endif %}
-          </div>
-        {% endif %}
+<section class="Works" id="work">
+  <h2 class="Hidden">Works</h2>
 
-        {% if case.image_file %}
-          <div class="Showcase__Image">
-            <img src="{{ case.image_file }}" alt="">
-          </div>
-        {% endif %}
+  <div class="Grid Grid--Three">
+    {% if site.categories %}
+      <nav class="Grid__Filter">
+        <h2 class="Hidden">Solutions</h2>
 
-        {% if case.video_file %}
-          <div class="Showcase__Video">
-            <video preload="none" loop muted>
-              <source src="{{ case.video_file }}" type="video/mp4">
-            </video>
-          </div>
-        {% endif %}
+        <div class="Grid__Buttons">
+          <button class="Grid__Button Grid__Button--Active" data-filter="*">All</button>
+          {% for category in site.categories %}
+            <button class="Grid__Button" data-filter=".Grid__Item--{{ category | first | capitalize }}">{{ category | first | capitalize }}</button>
+          {% endfor %}
+        </div>
+      </nav>
+    {% endif %}
 
-      </div>
-    {% endfor %}
+    <div class="Grid__Items">
+      <div class="Grid__Sizer"></div>
+      <div class="Grid__Gutter"></div>
+
+      {% assign posts = site.posts | sort: 'position' %}
+      {% for post in posts %}
+        {% include post-preview.html handle=post %}
+      {% endfor %}
+    </div>
   </div>
-{% endif %}
-
-<div class="home">
-
-  <h1 class="page-heading">Works</h1>
-
-  {{ content }}
-
-  {% if site.categories %}
-    <nav class="post-categories">
-      <h2>Solutions</h2>
-      <ul>
-        {% for category in site.categories %}
-          <li>{{ category | first }}</li>
-        {% endfor %}
-      </ul>
-    </nav>
-  {% endif %}
-
-  {% assign posts = site.posts | sort: 'position' %}
-  {% for post in posts %}
-    {% include post-preview.html handle=post %}
-  {% endfor %}
-</div>
+</section>

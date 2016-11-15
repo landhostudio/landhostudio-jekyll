@@ -60,15 +60,12 @@
 .flickity-page-dots
   position: absolute
   width: 100%
-  bottom: rem-calc(20)
+  bottom: rem-calc(16)
   padding: 0
   margin: 0
   list-style: none
   text-align: center
   line-height: 1
-
-
-.flickity-page-dots
 
   .dot
     display: inline-block
@@ -77,8 +74,8 @@
     margin: 0 rem-calc(4)
     background: $color-2
     border-radius: 50%
-    opacity: 0.5
+    opacity: 0.0625
     cursor: pointer
 
-    .is-selected
-      opacity: 1
+    &.is-selected
+      opacity: 0.25

@@ -1,9 +1,12 @@
 .Showcase
   position: relative
   width: 100%
-  padding-bottom: per-width(16,9)
+  padding-bottom: 100vh
   // Loading fix
   overflow: hidden
+  
+  @include media($from-small)
+    padding-bottom: per-width(16,9)
   
   &__Item
     position: absolute
@@ -13,6 +16,10 @@
     width: 100%
     height: 100%
     background-color: $color-3
+
+    // Loading fix
+    &:first-of-type
+      z-index: 90
 
     img, video
       position: absolute
@@ -44,6 +51,12 @@
     align-items: center
     justify-content: center
     color: $color-1
+    opacity: 0
+    transition: opacity 1s ease-out
+    transition-delay: 750ms
+    
+    .Showcase__Item.is-selected &
+      opacity: 1
 
     a
       color: $color-1

@@ -1,0 +1,52 @@
+.Quotes
+  padding-left: $gutter
+  padding-right: $gutter
+  background-color: $color-3
+  color: $color-1
+
+  &__Items
+    position: relative
+    width: 100%
+
+    // Loading fix
+    // overflow: hidden
+
+  &__Item
+    margin: 0
+    padding: rem-calc(24) 0 rem-calc(48)
+    font-size: rem-calc(20)
+    line-height: 1.2
+    font-weight: bold
+    width: 100%
+    opacity: 0
+    transition: opacity 500ms ease-out
+    
+    @include media($from-small)
+      line-height: $line-height
+      font-size: rem-calc(24)
+
+    &.is-selected
+      opacity: 1
+    
+    cite
+      display: block
+      font-weight: normal
+      font-size: rem-calc(18)
+      margin-top: em-calc(12)
+      font-style: normal
+      
+      @include media($from-small)
+        margin-top: em-calc(8)
+
+  .flickity-viewport
+    position: relative
+    height: 100%
+  
+  .flickity-page-dots
+    
+    .dot
+      background: $color-1
+      opacity: 0.25
+      
+      &.is-selected
+        opacity: 0.5

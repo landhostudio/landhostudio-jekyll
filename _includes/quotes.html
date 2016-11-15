@@ -1,0 +1,19 @@
+{% if page.quotes %}
+  <section class="Quotes">
+    <h2 class="Hidden">Testimonials</h2>
+
+    <div class="Quotes__Items" data-flickity='{ "contain": false, "autoPlay": 7500, "percentPosition": true, "prevNextButtons": false, "wrapAround": true, "pauseAutoPlayOnHover": false }'>
+      {% for item in page.quotes %}
+        <blockquote class="Quotes__Item">
+          {% if item.quote %}
+            {{ item.quote }}
+          {% endif %}
+
+          {% if item.author %}
+            <cite>{{ item.author }}</cite>
+          {% endif %}
+        </blockquote>
+      {% endfor %}
+    </div>
+  </section>
+{% endif %}
