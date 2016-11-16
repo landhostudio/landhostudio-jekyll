@@ -197,11 +197,11 @@ $(function() {
   function initIsotopeVideo() {
     $('.Grid__Item--HasVideo').hover(playVideo, stopVideo);
 
-    function playVideo(e) {
+    function playVideo() {
       $('video', this).get(0).play();
     }
 
-    function stopVideo(e) {
+    function stopVideo() {
       $('video', this).get(0).pause();
       $('video', this).get(0).currentTime = 0;
     }
