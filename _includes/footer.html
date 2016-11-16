@@ -1,10 +1,12 @@
-<footer class="footer">
+<footer class="Footer">
+
+  <h2 class="Hidden">Information about {{ site.title }}</h2>
 
   {% if site.footer %}
     {% for column in site.footer %}
-      <div class="footer-column">
+      <div class="Footer__Column">
         {% if column.title %}
-          <h2>{{ column.title }}</h2>
+          <h3>{{ column.title }}</h3>
         {% endif %}
         {% if column.text %}
           {{ column.text | markdownify }}
@@ -13,7 +15,7 @@
     {% endfor %}
   {% endif %}
 
-  <div class="footer-copy">
+  <div class="Footer__Column Footer__Column--Copy">
     <small>&copy; 2014 – {{ site.time | date:"%Y" }} {{ site.title }}. All rights reserved.</small>
   </div>
 </footer>
