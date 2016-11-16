@@ -1,0 +1,35 @@
+.Footer
+  font-weight: bold
+  padding: rem-calc(24) $gutter
+
+  @include media($from-small)
+    display: flex
+    flex-flow: wrap
+    justify-content: space-between
+    padding-top: rem-calc(32)
+    padding-bottom: rem-calc(32)
+
+  &__Column
+    margin-bottom: rem-calc(32)
+      
+    @include media($from-small)
+      width: $grid-small-width
+      word-break: break-word
+      margin-bottom: rem-calc(48)
+      
+    &:last-of-type
+      margin-bottom: 0
+      
+    h3
+      margin: 0 0 rem-calc(8)
+      font-size: 1em
+    
+    p
+      margin: 0 0 rem-calc(8)
+      
+      &:last-of-type
+        margin-bottom: 0
+
+    &--Copy
+      @include media($from-small)
+        width: 100%
