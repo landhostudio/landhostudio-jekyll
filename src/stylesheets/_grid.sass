@@ -15,21 +15,24 @@
     -webkit-overflow-scrolling: touch
 
     @include media(max-width $to-small)
-      padding: rem-calc(20) $gutter
-
-    @include media($from-small)
-      padding-top: rem-calc(24)
-      padding-bottom: rem-calc(24)
+      padding-left: $gutter
+      padding-right: $gutter
 
   &__Button
     font-weight: bold
     font-size: em-calc(16)
-    margin-right: em-calc(8)
     opacity: 0.25
     transition: opacity 250ms
+    padding: rem-calc(20) rem-calc(8)
+    
+    &:first-of-type
+      padding-left: 0
 
     @include media($from-small)
-      margin-right: rem-calc(16)
+      padding: rem-calc(24) rem-calc(16)
+
+      &:first-of-type
+        padding-left: 0
 
     &:focus,
     &:hover
