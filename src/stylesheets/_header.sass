@@ -10,7 +10,7 @@
   z-index: 99
   transition: background 500ms ease-out
 
-  @include media($from-small)
+  @include media($from-medium)
     padding-top: rem-calc(32)
     padding-bottom: rem-calc(32)
 
@@ -30,7 +30,7 @@
       height: rem-calc(24)
       fill: $color-1
 
-      @include media($from-small)
+      @include media($from-medium)
         width: rem-calc(208)
         height: rem-calc(30)
       
@@ -38,7 +38,7 @@
         fill: $color-2
 
   &__Nav
-    @include media(max-width $to-small)
+    @include media(max-width $to-medium)
       position: fixed
       top: 0
       left: 0
@@ -49,11 +49,11 @@
       visibility: hidden
       opacity: 0
     
-    @include media($from-small)
+    @include media($from-medium)
       
 
     .Header--Opened &
-      @include media(max-width $to-small)
+      @include media(max-width $to-medium)
         visibility: visible
         opacity: 1
 
@@ -62,24 +62,22 @@
       margin: 0
       padding: 0
 
-      @include media(max-width $to-small)
+      @include media(max-width $to-medium)
         position: absolute
         top: 50%
         left: 0
         width: 100%
         transform: translateY(-50%)
         text-align: center
-
-      @include media($from-small)
         
     &__Item
       font-weight: bold
       font-size: rem-calc(24)
 
-      @include media(max-width $to-small)
+      @include media(max-width $to-medium)
         margin: 0 $gutter
 
-      @include media($from-small)
+      @include media($from-medium)
         display: inline-block
         line-height: 1
         margin-left: rem-calc(32)
@@ -87,19 +85,20 @@
         &:first-of-type
           margin-left: 0
           
-      @include media($from-medium)
+      @include media($from-large)
         margin-left: rem-calc(48)
       
-      @include media($from-large)
+      @include media($from-huge)
         margin-left: rem-calc(64)
 
       a
         color: $color-1
         
         .Header--Alternative &
-          color: $color-2
+          @include media($from-medium)
+            color: $color-2
 
-        @include media(max-width $to-small)
+        @include media(max-width $to-medium)
           display: block
           padding: rem-calc(8)
           background-color: transparent
@@ -114,7 +113,7 @@
     position: relative
     z-index: 98
 
-    @include media($from-small)
+    @include media($from-medium)
       display: none
 
   &__Button
