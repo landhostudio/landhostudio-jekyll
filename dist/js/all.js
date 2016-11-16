@@ -19832,13 +19832,16 @@
 	$(function() {
 
 	  'use strict';
-	  
-	  var $body              = $('body');
-	  
+
+	  var $html              = $('html'),
+	      $body              = $('body');
+
 	  var $header            = $('.Header'),
 	      $headerButtonOpen  = $('.Header__Button--Open'),
 	      $headerButtonClose = $('.Header__Button--Close'),
-	      headerOpened       = 'Header--Opened';
+	      $headerNavItem     = $('.Header__Nav__Item a'),
+	      headerOpened       = 'Header--Opened',
+	      headerAlternative  = 'Header--Alternative';
 
 	  var $grid              = $('.Grid'),
 	      $gridItems         = $('.Grid__Items'),
@@ -19851,15 +19854,17 @@
 	      gridButtonActive   = '.Grid__Button--Active';
 
 	  var init = function() {
-	    $body.addClass('js');
-	    initNav();
+	    $html.addClass('js');
+	    initHeader();
+	    initHeaderScroll();
 	    initFlickity();
 	    initIsotope();
 	    initIsotopeVideo();
+	    initNavScroll();
 	    initHoverScroll();
 	  };
-	  
-	  function initNav() {
+
+	  function initHeader() {
 
 	    $headerButtonOpen.click(function (event) {
 	      event.preventDefault();
@@ -19878,10 +19883,47 @@
 
 	      return false;
 	    });
+	    
+	    $headerNavItem.click(function () {
+	      $header.removeClass(headerOpened);
+	      console.log('nav is closed for opened link');
+	    });
 
 	    console.log('nav is on');
 	  };
-	  
+
+	  function initHeaderScroll() {
+
+	    function headerScroll() {
+
+	      var screenPosition = $(document).scrollTop(),
+	          elementTarget  = $('.Quotes').offset().top,
+	          headerHeight   = $header.outerHeight();
+
+	      if (screenPosition > (elementTarget - headerHeight)) {
+	        $header.addClass(headerAlternative);
+	      } else {
+	        $header.removeClass(headerAlternative);
+	      }
+	    }
+
+	    $(document).ready(function() {
+	      $(window).scroll(function(){
+	        headerScroll();
+	      });
+
+	      $(window).resize(function () {
+	        headerScroll();
+	      });
+
+	      //call the scroll() event so that the proper one is highlighted at the start
+	      $(window).scroll();
+	    });
+
+	    console.log('header is on');
+
+	  };
+
 	  function initFlickity() {
 
 	    var $carousel = $('.Showcase').flickity(),
@@ -19980,6 +20022,54 @@
 	      $('video', this).get(0).pause();
 	      $('video', this).get(0).currentTime = 0;
 	    }
+	  }
+
+	  function initNavScroll() {
+	     
+	    // scroll handler
+	    var scrollToAnchor = function( id ) {
+	   
+	      // grab the element to scroll to based on the name
+	      var elem = $("a[name='"+ id +"']");
+	   
+	      // if that didn't work, look for an element with our ID
+	      if ( typeof( elem.offset() ) === "undefined" ) {
+	        elem = $("#"+id);
+	      }
+	   
+	      // if the destination element exists
+	      if ( typeof( elem.offset() ) !== "undefined" ) {
+	   
+	        // do the scroll
+	        $('html, body').animate({
+	          scrollTop: elem.offset().top
+	        }, 1000 );
+	   
+	      }
+	      
+	    };
+	   
+	    // bind to click event
+	    $headerNavItem.click(function(event) {
+
+	        // only do this if it's an anchor link
+	        if ( $(this).attr('href').match(/^#/) ) {
+	          event.preventDefault();
+
+	          // scroll to the location
+	          var href = $(this).attr('href').replace('#', '');
+	          scrollToAnchor(href);
+
+	          // if we have pushState
+	          if ( history.pushState ) {
+	            history.pushState(null, null, '#' + href);
+	          }
+
+	          return false;
+	        }
+	     
+	      });
+
 	  }
 
 	  function initHoverScroll() {
