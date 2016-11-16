@@ -49,6 +49,15 @@ gulp.task('browser-sync', ['jekyll-build'], function () {
     notify: false,
     server: {
       baseDir: destination
+    },
+    ghostMode: {
+      clicks: false,
+      scroll: false,
+      forms: {
+        submit: false,
+        inputs: false,
+        toggles: false
+      }
     }
   });
 });
