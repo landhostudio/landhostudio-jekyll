@@ -15,14 +15,16 @@ $.bridget('isotope', Isotope, $);
 $(function() {
 
   'use strict';
-  
-  var $body              = $('body');
-  
+
+  var $html              = $('html'),
+      $body              = $('body');
+
   var $header            = $('.Header'),
       $headerButtonOpen  = $('.Header__Button--Open'),
       $headerButtonClose = $('.Header__Button--Close'),
       $headerNavItem     = $('.Header__Nav__Item a'),
-      headerOpened       = 'Header--Opened';
+      headerOpened       = 'Header--Opened',
+      headerAlternative  = 'Header--Alternative';
 
   var $grid              = $('.Grid'),
       $gridItems         = $('.Grid__Items'),
@@ -35,16 +37,17 @@ $(function() {
       gridButtonActive   = '.Grid__Button--Active';
 
   var init = function() {
-    $body.addClass('js');
-    initNav();
+    $html.addClass('js');
+    initHeader();
+    initHeaderScroll();
     initFlickity();
     initIsotope();
     initIsotopeVideo();
     initNavScroll();
     initHoverScroll();
   };
-  
-  function initNav() {
+
+  function initHeader() {
 
     $headerButtonOpen.click(function (event) {
       event.preventDefault();
@@ -71,7 +74,39 @@ $(function() {
 
     console.log('nav is on');
   };
-  
+
+  function initHeaderScroll() {
+
+    function headerScroll() {
+
+      var screenPosition = $(document).scrollTop(),
+          elementTarget  = $('.Quotes').offset().top,
+          headerHeight   = $header.outerHeight();
+
+      if (screenPosition > (elementTarget - headerHeight)) {
+        $header.addClass(headerAlternative);
+      } else {
+        $header.removeClass(headerAlternative);
+      }
+    }
+
+    $(document).ready(function() {
+      $(window).scroll(function(){
+        headerScroll();
+      });
+
+      $(window).resize(function () {
+        headerScroll();
+      });
+
+      //call the scroll() event so that the proper one is highlighted at the start
+      $(window).scroll();
+    });
+
+    console.log('header is on');
+
+  };
+
   function initFlickity() {
 
     var $carousel = $('.Showcase').flickity(),
