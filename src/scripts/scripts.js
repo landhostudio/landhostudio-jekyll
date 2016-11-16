@@ -225,7 +225,7 @@ $(function() {
    
         // do the scroll
         $('html, body').animate({
-          scrollTop: elem.offset().top
+          scrollTop: elem.offset().top - $gridFilter.height()
         }, 1000 );
    
       }
