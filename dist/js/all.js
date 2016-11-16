@@ -19850,6 +19850,7 @@
 	    initFlickity();
 	    initIsotope();
 	    initIsotopeVideo();
+	    initHoverScroll();
 	  };
 	  
 	  function initNav() {
@@ -19973,6 +19974,25 @@
 	      $('video', this).get(0).pause();
 	      $('video', this).get(0).currentTime = 0;
 	    }
+	  }
+
+	  function initHoverScroll() {
+
+	    var body = document.body,
+	        timer;
+
+	    window.addEventListener('scroll', function() {
+	      clearTimeout(timer);
+
+	      if( !body.classList.contains('Hover--Disable') ) {
+	        body.classList.add('Hover--Disable');
+	      }
+	      
+	      timer = setTimeout( function() {
+	        body.classList.remove('Hover--Disable');
+	      }, 500);
+	    }, false);
+
 	  }
 
 	  init();
