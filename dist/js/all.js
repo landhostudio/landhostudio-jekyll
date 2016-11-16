@@ -19846,12 +19846,12 @@
 	  var $grid              = $('.Grid'),
 	      $gridItems         = $('.Grid__Items'),
 	      $gridFilter        = $('.Grid__Filter'),
-	      $gridButton        = $(gridButton),
+	      $gridButton        = $('.Grid__Button'),
 	      gridItem           = '.Grid__Item',
 	      gridSizer          = '.Grid__Sizer',
 	      gridGutter         = '.Grid__Gutter',
 	      gridButton         = '.Grid__Button',
-	      gridButtonActive   = '.Grid__Button--Active';
+	      gridButtonActive   = 'Grid__Button--Active';
 
 	  var init = function() {
 	    $html.addClass('js');
@@ -20042,7 +20042,7 @@
 	   
 	        // do the scroll
 	        $('html, body').animate({
-	          scrollTop: elem.offset().top
+	          scrollTop: elem.offset().top - $gridFilter.height()
 	        }, 1000 );
 	   
 	      }
