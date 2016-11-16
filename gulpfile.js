@@ -74,7 +74,7 @@ gulp.task('stylesheets', function () {
     .pipe(combineMq())
     .pipe(shorthand())
     .pipe(autoprefixer({
-      browsers: ['last 3 versions'],
+      browsers: ['last 4 versions'],
       cascade: false
     }))
     .pipe(cssnano())
