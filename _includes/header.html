@@ -31,23 +31,33 @@
 
     <ul class="Header__Nav__Items">
 
-      <li class="Header__Nav__Item">
-        {% if page.url == '/' %}
-          <a href="#work">Work</a>
-        {% else %}
-          <a href="/#work">Work</a>
-        {% endif %}
-      </li>
-      
-      {% for nav in navs %}
-        {% if nav.title %}
-          {% if nav.url != '/' %}
+      {% if page.url == '/' %}
+        
+        <li class="Header__Nav__Item">
+          <a href="#work">{{ page.title }}</a>
+        </li>
+        
+        {% for nav in navs %}
+          {% if nav.title %}
+            {% if nav.url != '/' %}
+              <li class="Header__Nav__Item">
+                <a href="{{ nav.url | relative_url }}">{{ nav.title | escape }}</a>
+              </li>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+
+      {% else %}
+        
+        {% for nav in navs %}
+          {% if nav.title %}
             <li class="Header__Nav__Item">
               <a href="{{ nav.url | relative_url }}">{{ nav.title | escape }}</a>
             </li>
           {% endif %}
-        {% endif %}
-      {% endfor %}
+        {% endfor %}
+
+      {% endif %}
 
     </ul>
   </nav>
