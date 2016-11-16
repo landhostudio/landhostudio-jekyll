@@ -40,10 +40,10 @@ $(function() {
     $html.addClass('js');
     initHeader();
     initHeaderScroll();
+    initHeaderNavScroll();
     initFlickity();
     initIsotope();
     initIsotopeVideo();
-    initNavScroll();
     initHoverScroll();
   };
 
@@ -106,6 +106,49 @@ $(function() {
     console.log('header is on');
 
   };
+
+  function initHeaderNavScroll() {
+     
+    // scroll handler
+    var scrollToAnchor = function( id ) {
+   
+      // grab the element to scroll to based on the name
+      var elem = $("a[name='"+ id +"']");
+   
+      // if that didn't work, look for an element with our ID
+      if ( typeof( elem.offset() ) === "undefined" ) {
+        elem = $("#"+id);
+      }
+   
+      // if the destination element exists
+      if ( typeof( elem.offset() ) !== "undefined" ) {
+   
+        // do the scroll
+        $('html, body').animate({
+          scrollTop: elem.offset().top - $gridFilter.height()
+        }, 1000 );
+   
+      }
+      
+    };
+   
+    // bind to click event
+    $headerNavItem.click(function(event) {
+
+        // only do this if it's an anchor link
+        if ( $(this).attr('href').match(/^#/) ) {
+          event.preventDefault();
+
+          // scroll to the location
+          var href = $(this).attr('href').replace('#', '');
+          scrollToAnchor(href);
+
+          return false;
+        }
+     
+      });
+
+  }
 
   function initFlickity() {
 
@@ -205,49 +248,6 @@ $(function() {
       $('video', this).get(0).pause();
       $('video', this).get(0).currentTime = 0;
     }
-  }
-
-  function initNavScroll() {
-     
-    // scroll handler
-    var scrollToAnchor = function( id ) {
-   
-      // grab the element to scroll to based on the name
-      var elem = $("a[name='"+ id +"']");
-   
-      // if that didn't work, look for an element with our ID
-      if ( typeof( elem.offset() ) === "undefined" ) {
-        elem = $("#"+id);
-      }
-   
-      // if the destination element exists
-      if ( typeof( elem.offset() ) !== "undefined" ) {
-   
-        // do the scroll
-        $('html, body').animate({
-          scrollTop: elem.offset().top - $gridFilter.height()
-        }, 1000 );
-   
-      }
-      
-    };
-   
-    // bind to click event
-    $headerNavItem.click(function(event) {
-
-        // only do this if it's an anchor link
-        if ( $(this).attr('href').match(/^#/) ) {
-          event.preventDefault();
-
-          // scroll to the location
-          var href = $(this).attr('href').replace('#', '');
-          scrollToAnchor(href);
-
-          return false;
-        }
-     
-      });
-
   }
 
   function initHoverScroll() {
