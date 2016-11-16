@@ -25,7 +25,13 @@ $(function() {
 
   var $grid              = $('.Grid'),
       $gridItems         = $('.Grid__Items'),
-      $gridItem          = $('.Grid__Item');
+      $gridFilter        = $('.Grid__Filter'),
+      $gridButton        = $(gridButton),
+      gridItem           = '.Grid__Item',
+      gridSizer          = '.Grid__Sizer',
+      gridGutter         = '.Grid__Gutter',
+      gridButton         = '.Grid__Button',
+      gridButtonActive   = '.Grid__Button--Active';
 
   var init = function() {
     $body.addClass('js');
@@ -116,15 +122,15 @@ $(function() {
     console.log('flickity is on');
 
   };
-  
+
   function initIsotope() {
 
-    var $grid = $('.Grid__Items').isotope({
-      itemSelector: '.Grid__Item',
+    var $grid = $gridItems.isotope({
+      itemSelector: gridItem,
       percentPosition: true,
       masonry: {
-        columnWidth: '.Grid__Sizer',
-        gutter: '.Grid__Gutter'
+        columnWidth: gridSizer,
+        gutter: gridGutter
       },
       transitionDuration: 750,
       stagger: 30,
@@ -136,11 +142,11 @@ $(function() {
       }
     });
 
-    $('.Grid__Filter').on('click', '.Grid__Button', function() {
+    $gridFilter.on('click', gridButton, function() {
       var filterValue = $(this).attr('data-filter');
       $grid.isotope({ filter: filterValue });
-      $('.Grid__Button').removeClass('Grid__Button--Active');
-      $(this).addClass('Grid__Button--Active');
+      $gridButton.removeClass(gridButtonActive);
+      $(this).addClass(gridButtonActive);
     });
 
     console.log('isotope is on');
