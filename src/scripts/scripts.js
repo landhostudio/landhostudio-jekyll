@@ -243,11 +243,6 @@ $(function() {
           var href = $(this).attr('href').replace('#', '');
           scrollToAnchor(href);
 
-          // if we have pushState
-          if ( history.pushState ) {
-            history.pushState(null, null, '#' + href);
-          }
-
           return false;
         }
      
