@@ -103,32 +103,20 @@
       a
         &:focus,
         &:hover
-          .Grid__Image
-            img
-              transform: translate(-50%,-50%)
-
-    &--HasImage
-      a
-        &:focus,
-        &:hover
           .Grid__Content
             opacity: 1
+
           .Grid__Image
             background-color: $color-3
 
             img
               opacity: 0
+              transform: translate(-50%,-50%)
 
     &--HasVideo
-      .Grid__Image
-        transition: all 1s
-
       a
         &:focus,
         &:hover
-          .Grid__Image
-            opacity: 0
-
           .Grid__Content
             animation-name: showAndHide
             animation-duration: 5000ms
@@ -146,6 +134,11 @@
                 opacity: 1
               100%
                 opacity: 0
+
+          .no-touchevents &
+            .Grid__Image
+              transition: all 1s
+              opacity: 0
 
           .Grid__Video
             opacity: 1
