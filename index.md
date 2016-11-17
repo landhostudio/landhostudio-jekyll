@@ -18,6 +18,8 @@ quotes:
 - quote: Hanno una sensibilità straordinara per identificare le forza del prodotto
     per poi trasmetterla al cliente finale in modo creativo e originale
   author: Borja Blanco, Co-founder of N-organic olive
+- quote: Credo che il loro segreto sia non prendersi troppo sul serio, e prendere tutto molto sul serio!
+  author: Silvia Pecorella, head of marketing, David Naman
 layout: posts
 ---
 
