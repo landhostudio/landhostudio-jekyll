@@ -3,6 +3,9 @@
   margin-right: $gutter
   border-bottom: rem-calc(3) solid rgba($color-2, 0.0625)
 
+  // loading fix
+  min-height: rem-calc(200)
+
   &__Items
     position: relative
     width: 100%
@@ -13,28 +16,26 @@
   &__Item
     margin: 0
     padding: rem-calc(24) 0 rem-calc(48)
-    font-size: rem-calc(20)
     line-height: 1.2
     font-weight: bold
     width: 100%
-    opacity: 0
-    transition: opacity 500ms ease-out
+
+    // loading fix
+    position: absolute
+    background-color: $color-1
     
     @include media($from-small)
       line-height: $line-height
       font-size: rem-calc(24)
-
-    &.is-selected
-      opacity: 1
     
     cite
       display: block
       font-weight: normal
-      font-size: rem-calc(18)
       margin-top: em-calc(12)
       font-style: normal
       
       @include media($from-small)
+        font-size: rem-calc(18)
         margin-top: em-calc(8)
 
   .flickity-viewport
