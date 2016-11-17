@@ -80,7 +80,7 @@ $(function() {
     function headerScroll() {
 
       var screenPosition = $(document).scrollTop(),
-          elementTarget  = $('.Quotes').offset().top,
+          elementTarget  = $('.Advent').offset().top,
           headerHeight   = $header.outerHeight();
 
       if (screenPosition > (elementTarget - headerHeight)) {
