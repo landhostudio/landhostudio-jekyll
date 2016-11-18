@@ -19860,7 +19860,9 @@
 	    initHeaderNavScroll();
 	    initFlickity();
 	    initIsotope();
-	    initIsotopeVideo();
+	    if (!Modernizr.touchevents) {
+	      initIsotopeVideo();
+	    }
 	    initWorkVideo();
 	    if (Modernizr.touchevents) {
 	      initHoverScroll();
