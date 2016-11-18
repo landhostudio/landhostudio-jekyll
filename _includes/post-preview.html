@@ -1,16 +1,48 @@
-<article class="Grid__Item{% if page.path contains "_posts" %} Grid__Item--Half{% else %}{% if include.handle.size == "small" %} Grid__Item--Small{% elsif include.handle.size == "medium" %} Grid__Item--Medium{% elsif include.handle.size == "half" %} Grid__Item--Half{% elsif include.handle.size == "large" %} Grid__Item--Large{% elsif include.handle.size == "huge" %} Grid__Item--Huge{% endif %}{% if include.handle.categories %}{% assign categories = include.handle.categories %}{% for category in categories %}{% if forloop.last == true %} Grid__Item--{{ category | capitalize }}{% else %} Grid__Item--{{ category | capitalize }} {% endif %}{% endfor %}{% endif %}{% endif %}{% if include.handle.thumbnail_video_file and include.handle.thumbnail_image_file %} Grid__Item--HasVideo{% elsif include.handle.thumbnail_image_file %} Grid__Item--HasImage{% endif %}">
-  <a href="{{ include.handle.url | relative_url }}" rel="bookmark">
-    
-    <div class="Grid__Content">
-      <h2>{{ include.handle.title | escape }}</h2>
-      {% if include.handle.payoff %}
-        <p>{{ include.handle.payoff }}</p>
+<{% if include.handle.url %}article{% else %}figure{% endif %} class="Grid__Item{% if include.handle.url %}{% else %} Grid__Item--Intern{% endif %}{% if include.handle.grid_size == "small" or include.handle.size == "small" %} Grid__Item--Small{% elsif include.handle.grid_size == "medium" or include.handle.size == "medium" %} Grid__Item--Medium{% elsif include.handle.grid_size == "half" or include.handle.size == "half" %} Grid__Item--Half{% elsif include.handle.grid_size == "large" or include.handle.size == "large" %} Grid__Item--Large{% elsif include.handle.grid_size == "huge" or include.handle.size == "huge" %} Grid__Item--Huge{% endif %}{% if include.handle.categories %}{% assign categories = include.handle.categories %}{% for category in categories %}{% if forloop.last == true %} Grid__Item--{{ category | capitalize }}{% else %} Grid__Item--{{ category | capitalize }} {% endif %}{% endfor %}{% endif %}{% if include.handle.thumbnail_video_file and include.handle.thumbnail_image_file %} Grid__Item--HasVideo{% elsif include.handle.video_file %} Grid__Item--HasVideo{% elsif include.handle.thumbnail_image_file or include.handle.image_file %} Grid__Item--HasImage{% endif %}">
+  
+  {% if include.handle.url %}
+    <a href="{{ include.handle.url | relative_url }}" rel="bookmark">
+      
+      <div class="Grid__Content">
+        <h2>{{ include.handle.title | escape }}</h2>
+        {% if include.handle.payoff %}
+          <p>{{ include.handle.payoff }}</p>
+        {% endif %}
+      </div>
+      
+      {% if include.handle.thumbnail_image_file %}
+        <div class="Grid__Image">
+          <img src="{{ include.handle.thumbnail_image_file }}" alt="">
+        </div>
       {% endif %}
-    </div>
+
+      {% if include.handle.thumbnail_video_file %}
+        <div class="Grid__Video">
+          <video preload="none" muted loop>
+            <source src="{{ include.handle.thumbnail_video_file }}" type="video/mp4">
+          </video>
+        </div>
+      {% endif %}
+
+    </a>
+  {% else %}
+  
+    {% if include.handle.title %}
+      <div class="Grid__Content">
+        <h2>{{ include.handle.title | escape }}</h2>
+        {% if include.handle.payoff %}
+          <p>{{ include.handle.payoff }}</p>
+        {% endif %}
+      </div>
+    {% endif %}
     
     {% if include.handle.thumbnail_image_file %}
       <div class="Grid__Image">
         <img src="{{ include.handle.thumbnail_image_file }}" alt="">
+      </div>
+    {% elsif include.handle.image_file %}
+      <div class="Grid__Image">
+        <img src="{{ include.handle.image_file }}" alt="">
       </div>
     {% endif %}
 
@@ -20,7 +52,13 @@
           <source src="{{ include.handle.thumbnail_video_file }}" type="video/mp4">
         </video>
       </div>
+    {% elsif include.handle.video_file %}
+      <div class="Grid__Video">
+        <video preload="none" {% if include.handle.is_video_audio == false %}muted {% endif %}loop>
+          <source src="{{ include.handle.video_file }}" type="video/mp4">
+        </video>
+      </div>
     {% endif %}
+  {% endif %}
 
-  </a>
-</article>
+</{% if include.handle.url %}article{% else %}figure{% endif %}>

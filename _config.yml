@@ -51,7 +51,7 @@ defaults:
     year_date: 
     link: 
     grid:
-    - size: half
+    - grid_size: large
       image_file: 
       video_file: 
       is_video_audio: false

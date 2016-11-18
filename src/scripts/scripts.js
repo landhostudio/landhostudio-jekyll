@@ -44,6 +44,7 @@ $(function() {
     initFlickity();
     initIsotope();
     initIsotopeVideo();
+    initWorkVideo();
     initHoverScroll();
   };
 
@@ -242,12 +243,36 @@ $(function() {
 
     function playVideo() {
       $('video', this).get(0).play();
+      console.log('Grid__Item--HasVideo has been hovered!');
     }
 
     function stopVideo() {
       $('video', this).get(0).pause();
       $('video', this).get(0).currentTime = 0;
+      console.log('Grid__Item--HasVideo has been un-hovered!');
     }
+  }
+
+  function initWorkVideo() {
+
+    $('.Work__Hero-Button').click(function (event) {
+      event.preventDefault();
+
+      $('.Work__Hero').addClass('Work__Hero--Playing');
+      $('.Work__Hero-Video iframe').vimeo('play');
+
+      return false;
+    });
+    
+    $('.Work__Hero-Video iframe').on('pause', function() {
+      $('.Work__Hero').removeClass('Work__Hero--Playing');
+      $(this).vimeo('seekTo', 0);
+    });
+    
+    $('.Work__Hero-Video iframe').on('finish', function() {
+      $('.Work__Hero').removeClass('Work__Hero--Playing');
+    });
+
   }
 
   function initHoverScroll() {
