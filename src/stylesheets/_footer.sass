@@ -1,12 +1,15 @@
 .Footer
   font-weight: bold
-  padding: rem-calc(24) $gutter
+  padding: rem-calc(24) $gutter rem-calc(24)
+
+  @include media($from-small)
+    padding-top: rem-calc(48)
 
   @include media($from-medium)
     display: flex
     flex-flow: wrap
     justify-content: space-between
-    padding-top: rem-calc(32)
+    padding-top: rem-calc(64)
     padding-bottom: rem-calc(32)
 
   &__Column
