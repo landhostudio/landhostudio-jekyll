@@ -2,6 +2,7 @@
 title: Hello
 permalink: "/hello/"
 position: 1
+cover_image: 
 columns:
 - title: Contact
   text: |-
