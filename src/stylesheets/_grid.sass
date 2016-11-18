@@ -70,7 +70,20 @@
 
     @include media($from-small)
       margin-bottom: $grid-gutter
-      border-radius: rem-calc(2)
+
+    &--Intern
+      &.Grid__Item--HasVideo
+
+        &:hover
+          cursor: pointer
+
+          .Grid__Image
+            z-index: 1
+            opacity: 0
+
+          .Grid__Video
+            z-index: 2
+            opacity: 1
 
     a
       position: absolute
@@ -90,7 +103,7 @@
         padding-bottom: $grid-medium-height
 
     &--Half
-      .Grid--Three &
+      .Grid--Two &
         @include media($from-small)
           width: $grid-half-width
           padding-bottom: $grid-half-height
