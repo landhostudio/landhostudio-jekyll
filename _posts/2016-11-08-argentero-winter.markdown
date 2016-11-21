@@ -41,7 +41,7 @@ grid:
   video_file: 
   is_video_audio: false
 work:
-- Pickwick
+- No bad days
 - Argentero winter
 - Glix
 ---
