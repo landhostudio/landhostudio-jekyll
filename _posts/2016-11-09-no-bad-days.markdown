@@ -33,10 +33,6 @@ grid:
   image_file: "/uploads/il-cielo-di-bagdad-4.jpg"
   video_file: 
   is_video_audio: false
-work:
-- Pickwick
-- Glix
-- Argentero winter
 ---
 
 Il cielo di Bagdad è una band italiana che ci piace molto.
