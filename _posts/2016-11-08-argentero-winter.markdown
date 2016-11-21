@@ -40,6 +40,10 @@ grid:
   image_file: "/uploads/argentero_winter-6.jpg"
   video_file: 
   is_video_audio: false
+work:
+- Pickwick
+- Argentero winter
+- Glix
 ---
 
 Argentero è un brand di abbigliamento da donna che ha base a Roma.
