@@ -14,5 +14,5 @@
 
 ## TODO list
 
-1. [ ] Solve problem on HTML5 video loading (maybe just add background-color?)
+1. [ ] Solve problem on HTML5 video loading (poster images)
 2. [ ] Better related content for `_posts` using Siteleaf’s  [Creating author pages with Jekyll and Siteleaf](https://www.siteleaf.com/blog/author-pages-in-jekyll-and-siteleaf/) concept

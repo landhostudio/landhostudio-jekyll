@@ -18,7 +18,7 @@
 
       {% if include.handle.thumbnail_video_file %}
         <div class="Grid__Video">
-          <video preload="none" muted loop>
+          <video preload="none" muted loop{% if include.handle.thumbnail_image_file %} poster="{{ include.handle.thumbnail_image_file }}"{% endif %}>
             <source src="{{ include.handle.thumbnail_video_file }}" type="video/mp4">
           </video>
         </div>
@@ -48,13 +48,13 @@
 
     {% if include.handle.thumbnail_video_file %}
       <div class="Grid__Video">
-        <video preload="none" muted loop>
+        <video preload="none" muted loop{% if include.handle.thumbnail_image_file %} poster="{{ include.handle.thumbnail_image_file }}"{% endif %}>
           <source src="{{ include.handle.thumbnail_video_file }}" type="video/mp4">
         </video>
       </div>
     {% elsif include.handle.video_file %}
       <div class="Grid__Video">
-        <video preload="none" {% if include.handle.is_video_audio == false %}muted {% endif %}loop>
+        <video preload="none" {% if include.handle.is_video_audio == false %}muted {% endif %}loop{% if include.handle.image_file %} poster="{{ include.handle.image_file }}"{% endif %}>
           <source src="{{ include.handle.video_file }}" type="video/mp4">
         </video>
       </div>
