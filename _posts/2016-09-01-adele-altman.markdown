@@ -4,6 +4,8 @@ date: 2016-09-01 17:41:00 +02:00
 categories:
 - photography
 - web
+size: large
+thumbnail_image_file: "/uploads/adele-altman-hero.jpg"
 client: Adele Altman
 kind:
 - Fashion
