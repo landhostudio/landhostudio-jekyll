@@ -91,13 +91,11 @@ layout: default
         <div class="Grid__Sizer"></div>
         <div class="Grid__Gutter"></div>
 
-        {% if page.previous %}
-          {% include post-preview.html handle=page.previous direction=next %}
-        {% endif %}
+        {% assign posts = site.posts | where: 'work','' %}
+        {% for post in posts %}
+          {% include post-preview.html handle=post %}
+        {% endfor %}
 
-        {% if page.next %}
-          {% include post-preview.html handle=page.next direction=prev %}
-        {% endif %}
       </div>
     </div>
 
