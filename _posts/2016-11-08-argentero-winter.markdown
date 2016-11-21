@@ -42,7 +42,7 @@ grid:
   is_video_audio: false
 work:
 - No bad days
-- Argentero winter
+- Adele Altman
 - Glix
 ---
 
