@@ -19860,9 +19860,13 @@
 	    initHeaderNavScroll();
 	    initFlickity();
 	    initIsotope();
-	    initIsotopeVideo();
+	    if (!Modernizr.touchevents) {
+	      initIsotopeVideo();
+	    }
 	    initWorkVideo();
-	    initHoverScroll();
+	    if (Modernizr.touchevents) {
+	      initHoverScroll();
+	    }
 	  };
 
 	  function initHeader() {
@@ -20106,7 +20110,7 @@
 	      
 	      timer = setTimeout( function() {
 	        body.classList.remove('Hover--Disable');
-	      }, 500);
+	      }, 150);
 	    }, false);
 
 	  }
