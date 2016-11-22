@@ -19,7 +19,7 @@ layout: default
 
     {% if page.thumbnail_image_file %}
       <div class="Work__Hero-Image">
-        <img src="{{ page.thumbnail_image_file }}" alt="">
+        <img src="{{ page.thumbnail_image_file | prepend:site.baseurl }}" alt="">
       </div>
     {% endif %}
 
