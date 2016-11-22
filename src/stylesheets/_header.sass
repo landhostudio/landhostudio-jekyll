@@ -30,10 +30,6 @@
       height: rem-calc(24)
       fill: $color-1
 
-      @include media($from-medium)
-        width: rem-calc(208)
-        height: rem-calc(30)
-      
       .Header--Alternative &
         fill: $color-2
 
@@ -79,8 +75,9 @@
 
       @include media($from-medium)
         display: inline-block
-        line-height: 1
         margin-left: rem-calc(32)
+        font-size: rem-calc(20)
+        line-height: rem-calc(24)
         
         &:first-of-type
           margin-left: 0
