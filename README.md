@@ -20,3 +20,5 @@
 4. [x] Hide grid filter on mobile
 5. [x] Showcase on mobile must have `100vh` height
 6. [ ] Showcase must play videos when slide item is active
+7. [ ] Add page cover image for `hello`
+8. [ ] Add style for `hello` page
