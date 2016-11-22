@@ -1,5 +1,6 @@
 <head>
   <meta charset="utf-8">
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -9,7 +10,10 @@
   <meta name="robots" content="noindex,nofollow,noodp">
 
   <link rel="stylesheet" href="{{ "/dist/css/all.css" | prepend:site.baseurl }}">
-  
-  <link rel="canonical" href="{% if page.url == '/' %}{{ site.url }}{% else %}{{ page.url | prepend:site.url }}{% endif %}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url | prepend:site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+  <script type="application/ld+json">
+    {% include metadata.json %}
+  </script>
 </head>
