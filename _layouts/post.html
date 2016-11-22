@@ -55,6 +55,10 @@ layout: default
         <p class="Work__Content-Meta-Solutions"><strong>Solutions</strong> {% assign categories = page.categories %}{% for category in categories %}{% if forloop.last == true %}{{ category | capitalize }}{% else %}{{ category | capitalize }}, {% endif %}{% endfor %}</p>
       {% endif %}
       
+      {% if page.collaborations %}
+        <p class="Work__Content-Meta-Collaborations"><strong>Collaborations</strong> {% assign collaborations = page.collaborations %}{% for collaborator in collaborations %}{% if forloop.last == true %}{{ collaborator | capitalize }}{% else %}{{ collaborator | capitalize }}, {% endif %}{% endfor %}</p>
+      {% endif %}
+      
       {% if page.year_date %}
         <p class="Work__Content-Meta-Year"><strong>Year</strong> {{ page.year_date | date: "%Y" }}</p>
       {% endif %}
@@ -83,21 +87,22 @@ layout: default
     </div>
   {% endif %}
 
-  <footer class="Work__Related">
-    <h1>Related projects</h1>
-    
-    <div class="Grid Grid--Two">
-      <div class="Grid__Items">
-        <div class="Grid__Sizer"></div>
-        <div class="Grid__Gutter"></div>
+  {% assign posts = site.posts | where: 'work','' %}
+  {% if posts %}
+    <footer class="Work__Related">
+      <h1>Related projects</h1>
+      
+      <div class="Grid Grid--Two">
+        <div class="Grid__Items">
+          <div class="Grid__Sizer"></div>
+          <div class="Grid__Gutter"></div>
 
-        {% assign posts = site.posts | where: 'work','' %}
-        {% for post in posts %}
-          {% include post-preview.html handle=post %}
-        {% endfor %}
+          {% for post in posts %}
+            {% include post-preview.html handle=post %}
+          {% endfor %}
 
+        </div>
       </div>
-    </div>
-
-  </footer>
+    </footer>
+  {% endif %}
 </article>

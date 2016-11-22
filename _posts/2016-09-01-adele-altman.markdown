@@ -9,22 +9,25 @@ thumbnail_image_file: "/uploads/adele-altman-hero.jpg"
 client: Adele Altman
 kind:
 - Fashion
+collaborations:
+- Cinzia Capparelli
+- Mandarine models
 year_date: 2016-11-21 00:00:00 +01:00
 link: http://adelealtman.it
 grid:
 - grid_size: huge
   image_file: "/uploads/adele-altman-1.jpg"
-  video_file: 
+  video_file:
   is_video_audio: false
   is_video_autoplay: false
 - grid_size: huge
   image_file: "/uploads/adele-altman-2.jpg"
-  video_file: 
+  video_file:
   is_video_audio: false
   is_video_autoplay: false
 - grid_size: huge
   image_file: "/uploads/adele-altman-3.jpg"
-  video_file: 
+  video_file:
   is_video_audio: false
   is_video_autoplay: false
 ---
