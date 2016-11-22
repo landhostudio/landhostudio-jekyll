@@ -161,10 +161,12 @@
 
     &--HasVideoAutoplay
       .Grid__Image
-        opacity: 0
+        .no-touchevents &
+          opacity: 0
 
       .Grid__Video
-        opacity: 1
+        .no-touchevents &
+          opacity: 1
 
   &__Gutter
     width: $grid-gutter
@@ -217,6 +219,10 @@
   &__Video
     opacity: 0
     z-index: 1
+
+    .touchevents &
+      @include media(max-width $to-small)
+        display: none
 
   &__Image,
   &__Video,
