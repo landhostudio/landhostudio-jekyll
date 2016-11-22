@@ -32,7 +32,7 @@ grid:
   is_video_autoplay: false
 - grid_size: huge
   image_file: "/uploads/adele-altman-website.jpg"
-  video_file: 
+  video_file: "/uploads/adele-altman-website.mp4"
   is_video_audio: false
   is_video_autoplay: false
 ---
