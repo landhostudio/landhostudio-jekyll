@@ -8,7 +8,7 @@
 
   <meta name="robots" content="noindex,nofollow,noodp">
 
-  <link rel="stylesheet" href="{{ "/dist/css/all.css" | relative_url | prepend:site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/dist/css/all.css" | prepend:site.baseurl }}">
   
   <link rel="canonical" href="{% if page.url == '/' %}{{ site.url }}{% else %}{{ page.url | prepend:site.url }}{% endif %}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url | prepend:site.baseurl }}">
