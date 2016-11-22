@@ -77,7 +77,7 @@ footer:
 - title: Hello
   text: Land Ho è il nostro progetto creativo che crede nel metodo e nella ricerca
     costante. Nasciamo nel 2014. Siamo una famiglia.
-baseurl: /new
+baseurl: 
 url:
 markdown: kramdown
 permalink: pretty
