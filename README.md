@@ -16,3 +16,6 @@
 
 1. [x] Solve problem on HTML5 video loading (poster images)
 2. [ ] Better related content for `_posts` using Siteleaf’s  [Creating author pages with Jekyll and Siteleaf](https://www.siteleaf.com/blog/author-pages-in-jekyll-and-siteleaf/) concept
+3. [ ] Add autoplay for grid items inside single work
+4. [ ] Hide grid filter on mobile
+5. [x] Showcase on mobile must have `100vh` height
