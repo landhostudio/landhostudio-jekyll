@@ -19,3 +19,4 @@
 3. [ ] Add autoplay for grid items inside single work
 4. [x] Hide grid filter on mobile
 5. [x] Showcase on mobile must have `100vh` height
+6. [ ] Showcase must play videos when slide item is active
