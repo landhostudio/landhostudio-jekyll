@@ -87,22 +87,6 @@ layout: default
     </div>
   {% endif %}
 
-  <footer class="Work__Related">
-    <h1>Related projects</h1>
-    
-    <div class="Grid Grid--Three">
-      <div class="Grid__Items">
-        <div class="Grid__Sizer"></div>
-        <div class="Grid__Gutter"></div>
+  {% include related.html %}
 
-        {% assign related = page.categories | first %}
-        {% for post in site.posts limit:3 %}
-          {% if post.categories contains related %}
-            {% include post-preview.html handle=post condition="related" %}
-          {% endif %}
-        {% endfor %}
-
-      </div>
-    </div>
-  </footer>
 </article>

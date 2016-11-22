@@ -1,0 +1,36 @@
+{% assign hasSimilar = '' %}
+
+{% for post in site.related_posts limit:3 %}
+  {% assign postHasSimilar = false %}
+
+  {% for category in post.categories %}
+    {% for thisTag in page.categories %}
+      {% if postHasSimilar == false and hasSimilar.size < 6 and post != page and category == thisTag %}
+
+        {% if hasSimilar.size == 0 %}
+
+          <footer class="Work__Related">
+            <h1>Related projects</h1>
+            
+            <div class="Grid Grid--Three">
+              <div class="Grid__Items">
+                <div class="Grid__Sizer"></div>
+                <div class="Grid__Gutter"></div>
+
+        {% endif %}
+
+        {% include post-preview.html handle=post condition="related" %}
+
+        {% capture hasSimilar %}{{ hasSimilar }}*{% endcapture %}
+        {% assign postHasSimilar = true %}
+
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+{% endfor %}
+
+{% if hasSimilar.size > 0 %}
+      </div>
+    </div>
+  </footer>
+{% endif %}
