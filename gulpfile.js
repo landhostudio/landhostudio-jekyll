@@ -32,7 +32,7 @@ var source      = '.',
 // Build -----------------------------------------------------------------------
 
 gulp.task('jekyll-build', function (done) {
-  return childprocess.spawn('jekyll', ['build'], {stdio: 'inherit'})
+  return childprocess.spawn( 'jekyll', ['build', '--config=_config_dev.yml'], {stdio: 'inherit'})
     .on('close', done);
 });
 
