@@ -14,17 +14,17 @@ link: http://adelealtman.it
 grid:
 - grid_size: huge
   image_file: "/uploads/adele-altman-1.jpg"
-  video_file:
+  video_file: 
   is_video_audio: false
   is_video_autoplay: false
 - grid_size: huge
   image_file: "/uploads/adele-altman-2.jpg"
-  video_file:
+  video_file: 
   is_video_audio: false
   is_video_autoplay: false
 - grid_size: huge
   image_file: "/uploads/adele-altman-3.jpg"
-  video_file:
+  video_file: 
   is_video_audio: false
   is_video_autoplay: false
 ---
