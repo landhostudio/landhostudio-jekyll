@@ -14,16 +14,19 @@ link: http://adelealtman.it
 grid:
 - grid_size: huge
   image_file: "/uploads/adele-altman-1.jpg"
-  video_file: 
-  is_video_audio: 
+  video_file:
+  is_video_audio: false
+  is_video_autoplay: false
 - grid_size: huge
   image_file: "/uploads/adele-altman-2.jpg"
-  video_file: 
-  is_video_audio: 
+  video_file:
+  is_video_audio: false
+  is_video_autoplay: false
 - grid_size: huge
   image_file: "/uploads/adele-altman-3.jpg"
-  video_file: 
-  is_video_audio: 
+  video_file:
+  is_video_audio: false
+  is_video_autoplay: false
 ---
 
 Adele Altman è una catena di negozi di abbigliamento che conta diversi punti vendita in tutta Italia. Il nostro studio si è occupato della prima campagna fotografica del brand e del suo posizionamento sul web.
