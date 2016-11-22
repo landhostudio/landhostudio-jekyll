@@ -43,7 +43,7 @@ grid:
   is_video_autoplay: true
 - grid_size: huge
   image_file: "/uploads/glix-5.jpg"
-  video_file:
+  video_file: 
   is_video_audio: false
   is_video_autoplay: false
 ---

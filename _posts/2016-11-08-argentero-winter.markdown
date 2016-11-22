@@ -20,32 +20,32 @@ link: http://argentero.eu
 grid:
 - grid_size: huge
   image_file: "/uploads/argentero_winter-1.jpg"
-  video_file:
+  video_file: 
   is_video_audio: false
   is_video_autoplay: false
 - grid_size: half
   image_file: "/uploads/argentero_winter-2.jpg"
-  video_file:
+  video_file: 
   is_video_audio: false
   is_video_autoplay: false
 - grid_size: half
   image_file: "/uploads/argentero_winter-3.jpg"
-  video_file:
+  video_file: 
   is_video_audio: false
   is_video_autoplay: false
 - grid_size: huge
   image_file: "/uploads/argentero_winter-4.jpg"
-  video_file:
+  video_file: 
   is_video_audio: false
   is_video_autoplay: false
 - grid_size: half
   image_file: "/uploads/argentero_winter-5.jpg"
-  video_file:
+  video_file: 
   is_video_audio: false
   is_video_autoplay: false
 - grid_size: half
   image_file: "/uploads/argentero_winter-6.jpg"
-  video_file:
+  video_file: 
   is_video_audio: false
   is_video_autoplay: false
 work:
