@@ -2,8 +2,8 @@
 title: Argentero winter
 date: 2016-11-08 17:44:00 +01:00
 categories:
-- fashion
 - photography
+- print
 tags:
 - photography
 - print
@@ -20,32 +20,32 @@ link: http://argentero.eu
 grid:
 - grid_size: huge
   image_file: "/uploads/argentero_winter-1.jpg"
-  video_file: 
+  video_file:
   is_video_audio: false
   is_video_autoplay: false
 - grid_size: half
   image_file: "/uploads/argentero_winter-2.jpg"
-  video_file: 
+  video_file:
   is_video_audio: false
   is_video_autoplay: false
 - grid_size: half
   image_file: "/uploads/argentero_winter-3.jpg"
-  video_file: 
+  video_file:
   is_video_audio: false
   is_video_autoplay: false
 - grid_size: huge
   image_file: "/uploads/argentero_winter-4.jpg"
-  video_file: 
+  video_file:
   is_video_audio: false
   is_video_autoplay: false
 - grid_size: half
   image_file: "/uploads/argentero_winter-5.jpg"
-  video_file: 
+  video_file:
   is_video_audio: false
   is_video_autoplay: false
 - grid_size: half
   image_file: "/uploads/argentero_winter-6.jpg"
-  video_file: 
+  video_file:
   is_video_audio: false
   is_video_autoplay: false
 work:

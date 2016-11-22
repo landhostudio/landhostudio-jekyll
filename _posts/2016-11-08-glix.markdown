@@ -2,8 +2,9 @@
 title: Glix
 date: 2016-11-08 16:11:00 +01:00
 categories:
-- fashion
-- app
+- branding
+- copywriting
+- video
 tags:
 - branding
 - copywriting
@@ -42,7 +43,7 @@ grid:
   is_video_autoplay: true
 - grid_size: huge
   image_file: "/uploads/glix-5.jpg"
-  video_file: 
+  video_file:
   is_video_audio: false
   is_video_autoplay: false
 ---
