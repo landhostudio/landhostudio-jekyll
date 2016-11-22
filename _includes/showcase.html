@@ -18,14 +18,14 @@
 
         {% if case.image_file %}
           <div class="Showcase__Image">
-            <img src="{{ case.image_file }}" alt="">
+            <img src="{{ case.image_file | prepend:site.baseurl }}" alt="">
           </div>
         {% endif %}
 
         {% if case.video_file %}
           <div class="Showcase__Video">
             <video preload="none" loop muted>
-              <source src="{{ case.video_file }}" type="video/mp4">
+              <source src="{{ case.video_file | prepend:site.baseurl }}" type="video/mp4">
             </video>
           </div>
         {% endif %}

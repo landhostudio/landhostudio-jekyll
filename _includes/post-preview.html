@@ -12,14 +12,14 @@
       
       {% if include.handle.thumbnail_image_file %}
         <div class="Grid__Image">
-          <img src="{{ include.handle.thumbnail_image_file }}" alt="">
+          <img src="{{ include.handle.thumbnail_image_file | prepend:site.baseurl }}" alt="">
         </div>
       {% endif %}
 
       {% if include.handle.thumbnail_video_file %}
         <div class="Grid__Video">
-          <video preload="none" muted loop{% if include.handle.thumbnail_image_file %} poster="{{ include.handle.thumbnail_image_file }}"{% endif %}>
-            <source src="{{ include.handle.thumbnail_video_file }}" type="video/mp4">
+          <video preload="none" muted loop{% if include.handle.thumbnail_image_file %} poster="{{ include.handle.thumbnail_image_file | prepend:site.baseurl }}"{% endif %}>
+            <source src="{{ include.handle.thumbnail_video_file | prepend:site.baseurl }}" type="video/mp4">
           </video>
         </div>
       {% endif %}
@@ -38,24 +38,24 @@
     
     {% if include.handle.thumbnail_image_file %}
       <div class="Grid__Image">
-        <img src="{{ include.handle.thumbnail_image_file }}" alt="">
+        <img src="{{ include.handle.thumbnail_image_file | prepend:site.baseurl }}" alt="">
       </div>
     {% elsif include.handle.image_file %}
       <div class="Grid__Image">
-        <img src="{{ include.handle.image_file }}" alt="">
+        <img src="{{ include.handle.image_file | prepend:site.baseurl }}" alt="">
       </div>
     {% endif %}
 
     {% if include.handle.thumbnail_video_file %}
       <div class="Grid__Video">
-        <video preload="none" muted loop{% if include.handle.thumbnail_image_file %} poster="{{ include.handle.thumbnail_image_file }}"{% endif %}>
-          <source src="{{ include.handle.thumbnail_video_file }}" type="video/mp4">
+        <video preload="none" muted loop{% if include.handle.thumbnail_image_file %} poster="{{ include.handle.thumbnail_image_file | prepend:site.baseurl }}"{% endif %}>
+          <source src="{{ include.handle.thumbnail_video_file | prepend:site.baseurl }}" type="video/mp4">
         </video>
       </div>
     {% elsif include.handle.video_file %}
       <div class="Grid__Video">
-        <video {% if include.handle.is_video_autoplay == false %}preload="none"{% else %}autoplay{% endif %} {% if include.handle.is_video_audio == false %}muted {% endif %}loop{% if include.handle.image_file %} poster="{{ include.handle.image_file }}"{% endif %}>
-          <source src="{{ include.handle.video_file }}" type="video/mp4">
+        <video {% if include.handle.is_video_autoplay == false %}preload="none"{% else %}autoplay{% endif %} {% if include.handle.is_video_audio == false %}muted {% endif %}loop{% if include.handle.image_file %} poster="{{ include.handle.image_file | prepend:site.baseurl }}"{% endif %}>
+          <source src="{{ include.handle.video_file | prepend:site.baseurl }}" type="video/mp4">
         </video>
       </div>
     {% endif %}
