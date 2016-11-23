@@ -10,7 +10,6 @@ tags:
 position: 3
 size: small
 thumbnail_image_file: "/uploads/argentero-summer-hero.jpg"
-thumbnail_video_file: 
 client: Argentero
 kind:
 - Fashion
@@ -50,8 +49,9 @@ grid:
   is_video_autoplay: false
 ---
 
-Morbi pharetra dictum ipsum, vitae vestibulum mauris auctor eu. Aenean consequat purus a ultrices porttitor. Proin consequat arcu tellus, in bibendum mauris eleifend id. Maecenas interdum auctor leo ut luctus. Phasellus porttitor gravida nibh ut pellentesque. Vestibulum eleifend lacus vestibulum bibendum volutpat. Duis et mi tincidunt, ultrices quam in, faucibus velit.
+Argentero è un brand di abbigliamento da donna che ha base a Roma.
+La scelta accurata dei materiali, la cura nei dettagli e la lavorazione artigianale 
+sono i punti chiave di un approccio  che non è solo espressione di stile ma anche determinazione a recuperare e valorizzare una tradizione sartoriale fatta di piccoli laboratori dove ogni singolo pezzo è tagliato e cucito a mano
 
-Proin sodales malesuada interdum. Sed ut ultricies diam. Quisque consectetur bibendum dolor, nec fermentum risus ullamcorper in. Cras porta quam non erat porta, eu maximus mi dignissim. Suspendisse vel ipsum vestibulum, aliquam lorem vitae, auctor sem. Vestibulum tincidunt ipsum quis enim tristique porttitor. Sed pellentesque ipsum eget scelerisque suscipit. Praesent eleifend eros lacus, a pretium ante aliquam nec. Ut dictum elementum ante vitae accumsan.
-
-Aliquam faucibus sit amet nisi eget lobortis. Curabitur diam lectus, laoreet vitae ultrices ut, rutrum pretium ex. Cras hendrerit eu justo sit amet sollicitudin. Sed vel nulla efficitur, semper velit sit amet, aliquet orci.
+Per la collezione Primavera/Estate 2016 abbiamo realizzato un photoshooting allestendo 
+un set a studio e progettato un catalogo rilegato a mano.
