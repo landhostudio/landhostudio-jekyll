@@ -37,7 +37,7 @@ columns:
 
     * Website Design
 - title: Bio
-  text: "Land Ho è un progetto creativo\nche crede nel valore sociale\ne culturale,
+  text: "Land Ho è uno studio creativo\nche crede nel valore sociale\ne culturale,
     realizza ogni progetto\ned evento unendo l’esattezza\nall’eleganza, l’equilibrio
     formale\nalla leggerezza. \nAffascinato dal dettaglio guarda il mondo\ncon attenzione
     per i particolari.\n\nRicerchiamo linguaggi, sperimentiamo\nscritture, sviluppiamo
