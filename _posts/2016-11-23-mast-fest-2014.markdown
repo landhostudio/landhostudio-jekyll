@@ -10,7 +10,7 @@ year_date: 2014-11-19 00:00:00 +01:00
 grid:
 - grid_size: huge
   image_file: "/uploads/mas-fest-2014-1.jpg"
-  video_file: "/uploads/mas-fest-2014-5.mp4"
+  video_file: "/uploads/mas-fest-2014-1.mp4"
   is_video_audio: true
   is_video_autoplay: false
 - grid_size: half
