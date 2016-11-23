@@ -10,7 +10,7 @@
           {% endif %}
 
           {% if item.author %}
-            <cite>{{ item.author }}</cite>
+            <cite>{{ item.author | markdownify }}</cite>
           {% endif %}
         </blockquote>
       {% endfor %}
