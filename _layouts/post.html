@@ -43,27 +43,27 @@ layout: default
 
       <h2 class="Hidden">Information about {{ page.title }}</h2>
 
-      {% if page.client >= blank %}
+      {% if page.client %}
         <p class="Work__Content-Meta-Client"><strong>Client</strong> {{ page.client }}</p>
       {% endif %}
-      
-      {% if page.kind >= blank %}
+
+      {% if page.kind %}
         <p class="Work__Content-Meta-Categories"><strong>Category</strong> {% assign kinds = page.kind %}{% for kind in kinds %}{% if forloop.last == true %}{{ kind | capitalize }}{% else %}{{ kind | capitalize }}, {% endif %}{% endfor %}</p>
       {% endif %}
       
-      {% if page.categories >= blank %}
+      {% if page.categories %}
         <p class="Work__Content-Meta-Solutions"><strong>Solutions</strong> {% assign categories = page.categories %}{% for category in categories %}{% if forloop.last == true %}{{ category | capitalize }}{% else %}{{ category | capitalize }}, {% endif %}{% endfor %}</p>
       {% endif %}
       
-      {% if page.collaborations >= blank %}
+      {% if page.collaborations %}
         <p class="Work__Content-Meta-Collaborations"><strong>Collaborations</strong> {% assign collaborations = page.collaborations %}{% for collaborator in collaborations %}{% if forloop.last == true %}{{ collaborator | capitalize }}{% else %}{{ collaborator | capitalize }}, {% endif %}{% endfor %}</p>
       {% endif %}
       
-      {% if page.year_date >= blank %}
+      {% if page.year_date %}
         <p class="Work__Content-Meta-Year"><strong>Year</strong> {{ page.year_date | date: "%Y" }}</p>
       {% endif %}
       
-      {% if page.link >= blank %}
+      {% if page.link %}
         <p class="Work__Content-Meta-Link"><a href="{{ page.link }}" rel="nofollow" target="_blank">View project</a></p>
       {% endif %}
 
