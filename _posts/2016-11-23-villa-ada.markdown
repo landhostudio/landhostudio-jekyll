@@ -1,0 +1,42 @@
+---
+title: Villa Ada
+date: 2016-11-23 17:08:00 +01:00
+size: huge
+thumbnail_image_file: "/uploads/villa-ada-hero.jpg"
+client: Villa Ada Incontra Il Mondo
+kind:
+- Festival
+year_date: 2016-11-23 00:00:00 +01:00
+link: http://www.villaada.org/
+grid:
+- grid_size: huge
+  image_file: "/uploads/villa-ada-1.jpg"
+  video_file: 
+  is_video_audio: false
+  is_video_autoplay: false
+- grid_size: huge
+  image_file: "/uploads/villa-ada-2.jpg"
+  video_file: 
+  is_video_audio: false
+  is_video_autoplay: false
+- grid_size: half
+  image_file: "/uploads/villa-ada-3.jpg"
+  video_file: 
+  is_video_audio: false
+  is_video_autoplay: false
+- grid_size: half
+  image_file: "/uploads/villa-ada-4.jpg"
+  video_file: 
+  is_video_audio: false
+  is_video_autoplay: false
+- grid_size: huge
+  image_file: "/uploads/villa-ada-5.jpg"
+  video_file: 
+  is_video_audio: 
+  is_video_autoplay: 
+---
+
+“Villa Ada Incontra Il Mondo” è un festival musicale che accompagna l’intera estate Romana nella splendida cornice del parco di Villa Ada.
+
+Il nostro studio ha curato l’intera comunicazione del Festival, “L’isola che non c’é” attraverso la delineazione di un immaginario legato al concerto di isola e a tutto ciò che la popola: dall’oggetto magico, al cimelio ritrovato, dalla flora e alla fauna.
+Abbiamo esplorato tali aspetti attraverso l’uso di un trattamento grafico illustrato e fotografico, mezzi che ne rendono possible la progettazione in modo versatile e spontaneo, garantendo infinite possibilità di declinazione.
