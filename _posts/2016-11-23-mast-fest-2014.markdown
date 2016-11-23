@@ -1,0 +1,39 @@
+---
+title: Mast Fest 2014
+date: 2016-11-23 15:15:00 +01:00
+size: huge
+client: Mas Fest
+kind:
+- Festival
+year_date: 2014-11-19 00:00:00 +01:00
+grid:
+- grid_size: huge
+  image_file: 
+  video_file: 
+  is_video_audio: false
+  is_video_autoplay: false
+- grid_size: half
+  image_file: 
+  video_file: 
+  is_video_audio: false
+  is_video_autoplay: false
+- grid_size: half
+  image_file: 
+  video_file: 
+  is_video_audio: false
+  is_video_autoplay: false
+- grid_size: half
+  image_file: 
+  video_file: 
+  is_video_audio: false
+  is_video_autoplay: false
+- grid_size: half
+  image_file: 
+  video_file: 
+  is_video_audio: false
+  is_video_autoplay: false
+---
+
+Mas Fest è un oneday festival che si tiene in provincia di Avellino e di cui curiamo la comunicazione.
+
+Per l’edizione 2014 abbiamo ricreato l’ambiente del festival con dei modellini in scala 1:100 e li abbiamo fatto ballare.
