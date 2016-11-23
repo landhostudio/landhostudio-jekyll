@@ -9,11 +9,10 @@ tags:
 - fashion
 position: 3
 size: small
-thumbnail_image_file: "/uploads/il-cielo-di-bagdad-hero.jpg"
+thumbnail_image_file: "/uploads/althea-hero.jpg"
 client: Althea
 kind:
 - Fashion
-collaborations: 
 year_date: 2015-11-11 00:00:00 +01:00
 grid:
 - grid_size: huge
