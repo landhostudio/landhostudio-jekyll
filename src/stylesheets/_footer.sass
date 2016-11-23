@@ -12,6 +12,14 @@
     padding-top: rem-calc(64)
     padding-bottom: rem-calc(32)
 
+  @include media($from-large)
+    padding-left: ($gutter * 1.5)
+    padding-right: ($gutter * 1.5)
+    
+  @include media($from-huge)
+    padding-left: ($gutter * 2)
+    padding-right: ($gutter * 2)
+
   &__Column
     margin-bottom: rem-calc(32)
       

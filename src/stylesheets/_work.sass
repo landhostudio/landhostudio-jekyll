@@ -92,13 +92,21 @@
         opacity: 1
 
   &__Header
-    margin: rem-calc(32) $gutter rem-calc(48)
+    padding: rem-calc(32) $gutter rem-calc(48)
     
     @include media($from-small)
-      margin: rem-calc(48) $gutter rem-calc(64)
+      padding: rem-calc(48) $gutter rem-calc(64)
 
     @include media($from-medium)
-      margin: rem-calc(64) $gutter rem-calc(80)
+      padding: rem-calc(64) $gutter rem-calc(80)
+    
+    @include media($from-large)
+      padding-left: ($gutter * 1.5)
+      padding-right: ($gutter * 1.5)
+      
+    @include media($from-huge)
+      padding-left: ($gutter * 2)
+      padding-right: ($gutter * 2)
     
     h1
       line-height: 1
@@ -118,15 +126,23 @@
         background-color: $color-2
 
   &__Content
-    margin-left: $gutter
-    margin-right: $gutter
-    margin-bottom: rem-calc(32)
+    padding-left: $gutter
+    padding-right: $gutter
+    padding-bottom: rem-calc(32)
 
     @include media($from-medium)
       display: flex
       flex-flow: wrap
       justify-content: space-between
       margin-bottom: rem-calc(64)
+
+    @include media($from-large)
+      padding-left: ($gutter * 1.5)
+      padding-right: ($gutter * 1.5)
+      
+    @include media($from-huge)
+      padding-left: ($gutter * 2)
+      padding-right: ($gutter * 2)
 
     &-Meta
       @include media($from-medium)
