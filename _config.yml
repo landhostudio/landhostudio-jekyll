@@ -72,8 +72,8 @@ footer:
 
     M. [hello@landhostudio.com](mailto:hello@landhostudio.com)
 - title: Hello
-  text: Land Ho è il nostro progetto creativo che crede nel metodo e nella ricerca
-    costante. Nasciamo nel 2014. Siamo una famiglia.
+  text: Land Ho è il nostro progetto creativo che crede <br> nel metodo e nella ricerca
+    costante. <br> Nasciamo nel 2014. Siamo una famiglia.
 logo: "/uploads/logo.png"
 baseurl: "/new"
 url: http://landhostudio.com/new
