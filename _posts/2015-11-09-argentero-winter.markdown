@@ -53,8 +53,8 @@ grid:
 ---
 
 Argentero è un brand di abbigliamento da donna che ha base a Roma.
-La scelta accurata dei materiali, la cura nei dettagli e la lavorazione artigianale 
+La scelta accurata dei materiali, la cura nei dettagli e la lavorazione artigianale
 sono i punti chiave di un approccio  che non è solo espressione di stile ma anche determinazione a recuperare e valorizzare una tradizione sartoriale fatta di piccoli laboratori dove ogni singolo pezzo è tagliato e cucito a mano.
 
-Per la collezione Autunno/Inverno 2015 abbiamo realizzato un photoshooting allestendo 
+Per la collezione Autunno/Inverno 2015 abbiamo realizzato un photoshooting allestendo
 un set a studio e progettato un catalogo rilegato a mano.
