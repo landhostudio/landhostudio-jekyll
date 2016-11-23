@@ -37,12 +37,15 @@ columns:
 
     * Website Design
 - title: Bio
-  text: Ever since they began collaborating in 2007, the artists and filmmakers Lernert
-    & Sander have been known for their high-conceptual art films, eye-catching installations
-    and keen fashion aesthetic. Driven by their cheeky sense of humour, Lernert &
-    Sander’s simple yet stunning approach has earned the duo numerous awards, international
-    accolades and industry-wide recognition. They live and work in Amsterdam, the
-    Netherlands.
+  text: "Land Ho è un progetto creativo\nche crede nel valore sociale\ne culturale,
+    realizza ogni progetto\ned evento unendo l’esattezza\nall’eleganza, l’equilibrio
+    formale\nalla leggerezza. \nAffascinato dal dettaglio guarda il mondo\ncon attenzione
+    per i particolari.\n\nRicerchiamo linguaggi, sperimentiamo\nscritture, sviluppiamo
+    comunicazione.\n\nCon le più grandi agenzie nazionali\ned internazionali, abbiamo
+    sviluppato\nprogetti commerciali e culturali,\nper enti, aziende, associazioni.\nCrediamo
+    nel metodo e nella ricerca\ncostante.\nLavoriamo in network, avvalendoci\ndi diverse
+    figure professionali,\nsu ogni tipo di media e con ogni tipo\ndi linguaggio. Nasciamo
+    nel 2014.\nSiamo una famiglia."
 - title: Collaborations
   text: |-
     * Arci Roma
