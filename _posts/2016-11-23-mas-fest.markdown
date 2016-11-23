@@ -1,0 +1,29 @@
+---
+title: Mas Fest
+date: 2016-11-23 14:59:00 +01:00
+size: huge
+thumbnail_image_file: "/uploads/mas-fest-hero.jpg"
+grid:
+- grid_size: huge
+  image_file: "/uploads/mas-fest-1.jpg"
+  video_file: 
+  is_video_audio: false
+  is_video_autoplay: false
+- grid_size: huge
+  image_file: "/uploads/mas-fest-2.jpg"
+  video_file: 
+  is_video_audio: false
+  is_video_autoplay: false
+- grid_size: huge
+  image_file: "/uploads/mas-fest-3.jpg"
+  video_file: 
+  is_video_audio: false
+  is_video_autoplay: false
+- grid_size: huge
+  image_file: "/uploads/mas-fest-4.jpg"
+  video_file: 
+  is_video_audio: false
+  is_video_autoplay: false
+---
+
+Non ce testo…
