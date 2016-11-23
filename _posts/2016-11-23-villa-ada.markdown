@@ -1,11 +1,20 @@
 ---
 title: Villa Ada
 date: 2016-11-23 17:08:00 +01:00
+categories:
+- illustration
+- photography
+- web
+- print
+- video
 size: huge
 thumbnail_image_file: "/uploads/villa-ada-hero.jpg"
 client: Villa Ada Incontra Il Mondo
+payoff: L'isola che non c'è
 kind:
 - Festival
+collaborations:
+- Madebytuta
 year_date: 2016-11-23 00:00:00 +01:00
 link: http://www.villaada.org/
 grid:
