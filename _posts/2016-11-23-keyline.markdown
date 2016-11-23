@@ -33,6 +33,16 @@ grid:
   video_file: 
   is_video_audio: false
   is_video_autoplay: false
+- grid_size: half
+  image_file: "/uploads/keyline-6.jpg"
+  video_file: 
+  is_video_audio: false
+  is_video_autoplay: false
+- grid_size: half
+  image_file: "/uploads/keyline-7.jpg"
+  video_file: 
+  is_video_audio: false
+  is_video_autoplay: false
 ---
 
 Keyline è azienda leader nella produzione di chiavi e macchine duplicatrici.
