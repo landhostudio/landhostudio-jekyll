@@ -1,0 +1,40 @@
+---
+title: Keyline
+date: 2016-11-23 14:36:00 +01:00
+size: huge
+thumbnail_image_file: "/uploads/keyline-hero.jpg"
+thumbnail_video_file: "/uploads/keyline-preview-1.mp4"
+client: Keyline
+year_date: 2015-11-18 00:00:00 +01:00
+link: http://www.keyline.it/
+grid:
+- grid_size: huge
+  image_file: "/uploads/keyline-1.jpg"
+  video_file: 
+  is_video_audio: false
+  is_video_autoplay: false
+- grid_size: huge
+  image_file: "/uploads/keyline-2.jpg"
+  video_file: 
+  is_video_audio: false
+  is_video_autoplay: false
+- grid_size: half
+  image_file: "/uploads/keyline-3.jpg"
+  video_file: 
+  is_video_audio: false
+  is_video_autoplay: false
+- grid_size: half
+  image_file: "/uploads/keyline-4.jpg"
+  video_file: 
+  is_video_audio: false
+  is_video_autoplay: false
+- grid_size: huge
+  image_file: "/uploads/keyline-5.jpg"
+  video_file: 
+  is_video_audio: false
+  is_video_autoplay: false
+---
+
+Keyline è azienda leader nella produzione di chiavi e macchine duplicatrici.
+La loro precedente linea comunicativa si basava essenzialmente sul prodotto tralasciando la tradizione familiare da cui proviene il marchio.
+Si è scelto di usare un video narrativo per raccontare la storia di un’antica professione che attraverso la dedizione e la continua ricerca si è sempre saputa rinnovare senza mai tralasciare la propria identità.
