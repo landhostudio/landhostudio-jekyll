@@ -10,6 +10,7 @@ tags:
 position: 3
 size: small
 thumbnail_image_file: "/uploads/althea-hero.jpg"
+thumbnail_video_file: "/uploads/althea-preview.mp4"
 client: Althea
 kind:
 - Fashion
@@ -17,22 +18,17 @@ year_date: 2015-11-11 00:00:00 +01:00
 grid:
 - grid_size: huge
   image_file: "/uploads/althea-1.jpg"
-  video_file: 
+  video_file:
   is_video_audio: false
   is_video_autoplay: false
 - grid_size: huge
   image_file: "/uploads/althea-2.jpg"
-  video_file: 
+  video_file:
   is_video_audio: false
   is_video_autoplay: false
 - grid_size: huge
   image_file: "/uploads/althea-3.jpg"
-  video_file: 
-  is_video_audio: false
-  is_video_autoplay: false
-- grid_size: huge
-  image_file: "/uploads/althea-4.jpg"
-  video_file: 
+  video_file:
   is_video_audio: false
   is_video_autoplay: false
 ---
