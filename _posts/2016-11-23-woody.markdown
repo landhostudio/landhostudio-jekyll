@@ -1,0 +1,20 @@
+---
+title: Woody
+date: 2016-11-23 17:56:00 +01:00
+size: small
+thumbnail_image_file: "/uploads/woody-hero.jpg"
+thumbnail_video_file: "/uploads/woody-preview.mp4"
+grid:
+- grid_size: huge
+  image_file: "/uploads/woody-1.jpg"
+  video_file: 
+  is_video_audio: false
+  is_video_autoplay: false
+- grid_size: huge
+  image_file: "/uploads/woody-2.jpg"
+  video_file: 
+  is_video_audio: false
+  is_video_autoplay: false
+---
+
+Non ce il testo…
