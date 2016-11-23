@@ -12,7 +12,7 @@ tags:
 position: 3
 size: small
 thumbnail_image_file: "/uploads/argentero-winter-hero.jpg"
-thumbnail_video_file:
+thumbnail_video_file: 
 client: Argentero
 kind:
 - Fashion
@@ -23,32 +23,32 @@ year_date: 2015-11-11 00:00:00 +01:00
 grid:
 - grid_size: huge
   image_file: "/uploads/argentero-winter-1.jpg"
-  video_file:
+  video_file: 
   is_video_audio: false
   is_video_autoplay: false
 - grid_size: half
   image_file: "/uploads/argentero-winter-2.jpg"
-  video_file:
+  video_file: 
   is_video_audio: false
   is_video_autoplay: false
 - grid_size: half
   image_file: "/uploads/argentero-winter-3.jpg"
-  video_file:
+  video_file: 
   is_video_audio: false
   is_video_autoplay: false
 - grid_size: huge
   image_file: "/uploads/argentero-winter-4.jpg"
-  video_file:
+  video_file: 
   is_video_audio: false
   is_video_autoplay: false
 - grid_size: half
   image_file: "/uploads/argentero-winter-5.jpg"
-  video_file:
+  video_file: 
   is_video_audio: false
   is_video_autoplay: false
 - grid_size: half
   image_file: "/uploads/argentero-winter-6.jpg"
-  video_file:
+  video_file: 
   is_video_audio: false
   is_video_autoplay: false
 ---

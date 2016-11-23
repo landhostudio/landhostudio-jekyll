@@ -22,22 +22,22 @@ year_date: 2015-11-11 00:00:00 +01:00
 grid:
 - grid_size: huge
   image_file: "/uploads/in-winter-time-1.jpg"
-  video_file:
+  video_file: 
   is_video_audio: false
   is_video_autoplay: false
 - grid_size: huge
   image_file: "/uploads/in-winter-time-2.jpg"
-  video_file:
+  video_file: 
   is_video_audio: false
   is_video_autoplay: false
 - grid_size: huge
   image_file: "/uploads/in-winter-time-3.jpg"
-  video_file:
+  video_file: 
   is_video_audio: false
   is_video_autoplay: false
 - grid_size: huge
   image_file: "/uploads/in-winter-time-4.jpg"
-  video_file:
+  video_file: 
   is_video_audio: false
   is_video_autoplay: false
 ---

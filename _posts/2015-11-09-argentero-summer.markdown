@@ -10,7 +10,7 @@ tags:
 position: 3
 size: small
 thumbnail_image_file: "/uploads/argentero-summer-hero.jpg"
-thumbnail_video_file:
+thumbnail_video_file: 
 client: Argentero
 kind:
 - Fashion
@@ -20,32 +20,32 @@ year_date: 2015-11-11 00:00:00 +01:00
 grid:
 - grid_size: huge
   image_file: "/uploads/argentero-summer-4.jpg"
-  video_file:
+  video_file: 
   is_video_audio: false
   is_video_autoplay: false
 - grid_size: half
   image_file: "/uploads/argentero-summer-2.jpg"
-  video_file:
+  video_file: 
   is_video_audio: false
   is_video_autoplay: false
 - grid_size: half
   image_file: "/uploads/argentero-summer-3.jpg"
-  video_file:
+  video_file: 
   is_video_audio: false
   is_video_autoplay: false
 - grid_size: huge
   image_file: "/uploads/argentero-summer-1.jpg"
-  video_file:
+  video_file: 
   is_video_audio: false
   is_video_autoplay: false
 - grid_size: half
   image_file: "/uploads/argentero-summer-5.jpg"
-  video_file:
+  video_file: 
   is_video_audio: false
   is_video_autoplay: false
 - grid_size: half
   image_file: "/uploads/argentero-summer-6.jpg"
-  video_file:
+  video_file: 
   is_video_audio: false
   is_video_autoplay: false
 ---

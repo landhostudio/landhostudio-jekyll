@@ -42,4 +42,5 @@ grid:
 ---
 
 Il cielo di Bagdad è una band italiana che ci piace molto.
-Dall’uscita di “Bad days”, il loro primo disco, abbiamo realizzato uno shooting fotografico nel nostro studio. Come guest star abbiamo invitato i nostri gatti Lillo e Fat danny, che poi sono finiti sulla copertina dell’album.
+Per l'uscita di “Bad days”, il loro primo disco, abbiamo realizzato uno shooting fotografico nel nostro studio. 
+Poi sono venuti a trovarci Lillo e Fat Danny, e sono finiti in copertina.
