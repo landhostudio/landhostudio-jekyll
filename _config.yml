@@ -62,9 +62,8 @@ email: hello@landhostudio.com
 description: An awesome description of our new site
 footer:
 - title: Family
-  text: |-
-    Ci incontriamo tutti i giorni al [Loft Coho](https://maps.google.com/maps?q=Coho\+Loft\+in\+Rome\+Vertumno\+2\+c,\+00157\+Rome,\+Italy), Via Vertumno 2c
-    <br> 00157 Rome, Italy
+  text: Ci incontriamo tutti i giorni al [Loft Coho](https://maps.google.com/maps?q=Coho\+Loft\+in\+Rome\+Vertumno\+2\+c,\+00157\+Rome,\+Italy),
+    <br> Via Vertumno 2c 00157 Rome, Italy
 - title: Keep in touch
   text: |-
     T. [(\+39) 347 08 74 994](tel:\+393470874994)
