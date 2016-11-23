@@ -14,6 +14,8 @@ thumbnail_video_file:
 client: Argentero
 kind:
 - Fashion
+collaborations:
+- Francesco Ormando
 year_date: 2015-11-11 00:00:00 +01:00
 grid:
 - grid_size: huge
