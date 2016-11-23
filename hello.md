@@ -2,7 +2,7 @@
 title: Hello
 permalink: "/hello/"
 position: 1
-cover_image: "/uploads/hello-cover.jpg"
+cover_image: "/uploads/13918614_10208715736965161_1101663733_o.jpg"
 columns:
 - title: Contact
   text: |-
