@@ -32,8 +32,8 @@ grid:
 - grid_size: huge
   image_file: "/uploads/villa-ada-5.jpg"
   video_file: 
-  is_video_audio: 
-  is_video_autoplay: 
+  is_video_audio: false
+  is_video_autoplay: false
 ---
 
 “Villa Ada Incontra Il Mondo” è un festival musicale che accompagna l’intera estate Romana nella splendida cornice del parco di Villa Ada.
