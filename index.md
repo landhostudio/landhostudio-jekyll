@@ -14,13 +14,13 @@ quotes:
 - quote: Our Gallery had an outstanding experience working with Land Ho. Professionalism,
     dedication and empathy all along the way!!! Looking forward collaborating in our
     next project.
-  author: Abigail Di Veroli, *marketing director of* **Galleria Contini**
+  author: Abigail Di Veroli – *Marketing director of* **Galleria Contini**
 - quote: Hanno una sensibilità straordinara per identificare le forza del prodotto
     per poi trasmetterla al cliente finale in modo creativo e originale
-  author: Borja Blanco, *co-founder of* **N-organic olive**
+  author: Borja Blanco – *Co-founder of* **N-organic olive**
 - quote: Credo che il loro segreto sia non prendersi troppo sul serio, e prendere
     tutto molto sul serio!
-  author: Silvia Pecorella, *head of marketing of* **David Naman**
+  author: Silvia Pecorella – *Head of marketing of* **David Naman**
 layout: posts
 ---
 
