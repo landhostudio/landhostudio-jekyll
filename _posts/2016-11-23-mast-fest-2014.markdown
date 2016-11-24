@@ -1,6 +1,8 @@
 ---
 title: Mast Fest 2014
 date: 2016-11-23 15:15:00 +01:00
+categories:
+- video
 size: huge
 thumbnail_image_file: "/uploads/mas-fest-2014-hero.jpg"
 client: Mas Fest
