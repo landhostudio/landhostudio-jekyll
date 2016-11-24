@@ -1,10 +1,12 @@
 .Quotes
   padding-left: $gutter
   padding-right: $gutter
-  border-bottom: rem-calc(3) solid rgba($color-2, 0.0625)
 
   // loading fix
   min-height: rem-calc(200)
+  
+  @include media($from-medium)
+    border-bottom: rem-calc(3) solid rgba($color-2, 0.0625)
 
   @include media($from-large)
     padding-left: ($gutter * 1.5)
