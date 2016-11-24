@@ -7,8 +7,8 @@ categories:
 tags:
 - photography
 - fashion
-position: 3
-size: half
+position: 7
+size: medium
 thumbnail_image_file: "/uploads/argentero-summer-hero.jpg"
 client: Argentero
 kind:
