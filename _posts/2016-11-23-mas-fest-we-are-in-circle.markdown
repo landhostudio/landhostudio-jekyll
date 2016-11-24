@@ -7,6 +7,7 @@ categories:
 size: half
 thumbnail_image_file: "/uploads/mas-fest-we-are-in-circle-hero.jpg"
 thumbnail_video_file: "/uploads/mas-fest-we-are-in-circle-preview.mp4"
+video: 28065164
 year_date: 2011-11-16 00:00:00 +01:00
 grid:
 - grid_size: huge
