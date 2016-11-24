@@ -1,6 +1,8 @@
 ---
 title: Poste Impresa
 date: 2016-11-23 16:57:00 +01:00
+categories:
+- video
 size: large
 thumbnail_image_file: "/uploads/poste-impresa-hero.jpg"
 thumbnail_video_file: "/uploads/poste-impresa-preview.mp4"
