@@ -11,7 +11,7 @@ position: 3
 size: half
 thumbnail_image_file: "/uploads/althea-hero.jpg"
 thumbnail_video_file: "/uploads/althea-preview.mp4"
-video: 66139380
+video: 164719606
 client: Althea
 kind:
 - Fashion
