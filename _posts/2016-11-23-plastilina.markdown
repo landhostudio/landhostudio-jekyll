@@ -1,6 +1,8 @@
 ---
 title: Plastilina
 date: 2016-11-23 16:56:00 +01:00
+categories:
+- print
 size: small
 thumbnail_image_file: "/uploads/plastilina-hero.jpg"
 grid:
