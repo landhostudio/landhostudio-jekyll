@@ -6,6 +6,7 @@ categories:
 size: half
 thumbnail_image_file: "/uploads/pickwick-hero.jpg"
 thumbnail_video_file: "/uploads/pickwick-preview.mp4"
+video: 110766953
 client: Pickwick
 kind:
 - Fashion
