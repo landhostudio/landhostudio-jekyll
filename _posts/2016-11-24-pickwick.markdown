@@ -4,7 +4,7 @@ date: 2016-11-24 11:49:00 +01:00
 categories:
 - video
 size: huge
-thumbnail_image_file: "/uploads/pickwick-hero-9234e5.jpg"
+thumbnail_image_file: "/uploads/pickwick-hero.jpg"
 thumbnail_video_file: "/uploads/pickwick-preview.mp4"
 client: Pickwick
 kind:
