@@ -48,12 +48,18 @@
         {% endfor %}
 
       {% else %}
+      
+        <li class="Header__Nav__Item">
+          <a href="/#work">{{ 'Work' }}</a>
+        </li>
         
         {% for nav in navs %}
           {% if nav.title %}
-            <li class="Header__Nav__Item">
-              <a href="{{ nav.url | relative_url }}">{{ nav.title | escape }}</a>
-            </li>
+            {% if nav.url != '/' %}
+              <li class="Header__Nav__Item">
+                <a href="{{ nav.url | relative_url }}">{{ nav.title | escape }}</a>
+              </li>
+            {% endif %}
           {% endif %}
         {% endfor %}
 

@@ -74,7 +74,7 @@
     overflow: hidden
 
     // loading fix
-    position: absolute
+    position: relative
     z-index: 0
 
     @include media($from-medium)
@@ -127,9 +127,6 @@
       a
         &:focus,
         &:hover
-          .Grid__Content
-            opacity: 1
-
           .Grid__Image
             img
               opacity: 0
@@ -139,6 +136,9 @@
       a
         &:focus,
         &:hover
+          .Grid__Content
+            opacity: 1
+
           .Grid__Image
             background-color: $color-3
 
@@ -162,21 +162,11 @@
         &:hover
           .Grid__Content
             animation-name: showAndHide
-            animation-duration: 5000ms
+            animation-duration: 5s
             animation-timing-function: ease
             animation-direction: normal
             animation-iteration-count: 1
             animation-fill-mode: forwards
-            
-            @keyframes showAndHide
-              0%
-                opacity: 0
-              10%
-                opacity: 1
-              50%
-                opacity: 1
-              100%
-                opacity: 0
 
           .no-touchevents &
             .Grid__Image
