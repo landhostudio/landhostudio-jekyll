@@ -4,7 +4,7 @@ date: 2016-11-23 14:36:00 +01:00
 categories:
 - video
 - copywriting
-size: huge
+size: half
 thumbnail_image_file: "/uploads/keyline-hero.jpg"
 thumbnail_video_file: "/uploads/keyline-preview-1.mp4"
 client: Keyline
