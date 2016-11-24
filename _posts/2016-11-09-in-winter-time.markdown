@@ -11,8 +11,7 @@ tags:
 - music
 position: 3
 size: half
-thumbnail_image_file: "/uploads/in-winter-time-hero.jpg"
-thumbnail_video_file: "/uploads/in-winter-time-preview.mp4"
+thumbnail_image_file: "/uploads/in-winter-time-1.jpg"
 client: Il cielo di Bagdad
 kind:
 - Music
