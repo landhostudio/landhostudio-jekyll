@@ -7,8 +7,8 @@ categories:
 tags:
 - photography
 - fashion
-position: 3
-size: half
+position: 13
+size: small
 thumbnail_image_file: "/uploads/althea-hero.jpg"
 thumbnail_video_file: "/uploads/althea-preview.mp4"
 video: 164719606
