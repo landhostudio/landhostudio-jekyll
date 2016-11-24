@@ -71,13 +71,13 @@ gulp.task('stylesheets', function () {
       includePaths: neat,
       precision: 6
     }).on('error', sass.logError))
-    .pipe(combineMq())
-    .pipe(shorthand())
+    // .pipe(combineMq())
+    // .pipe(shorthand())
     .pipe(autoprefixer({
       browsers: ['last 4 versions'],
       cascade: false
     }))
-    .pipe(cssnano())
+    // .pipe(cssnano())
     .pipe(gulp.dest(source + '/dist/css'))
     .pipe(browserSync.reload({stream:true}))
     .pipe(gulp.dest(destination + '/dist/css'));
