@@ -3,7 +3,8 @@ title: Mast Fest 2014
 date: 2016-11-23 15:15:00 +01:00
 categories:
 - video
-size: half
+position: 5
+size: small
 thumbnail_image_file: "/uploads/mas-fest-2014-hero.jpg"
 video: 98326093
 client: Mas Fest
