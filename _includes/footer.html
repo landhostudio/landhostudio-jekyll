@@ -20,4 +20,4 @@
   </div>
 </footer>
 
-<script src="{{ "/dist/js/all.js" | prepend:site.baseurl }}"></script>
+<script src="{% if jekyll.environment != 'staging' %}{{ site.baseurl }}{% endif %}{{ "/dist/js/all.js" }}"></script>

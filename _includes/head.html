@@ -9,9 +9,9 @@
 
   <meta name="robots" content="noindex,nofollow,noodp">
 
-  <link rel="stylesheet" href="{{ "/dist/css/all.css" | prepend:site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="stylesheet" href="{% if jekyll.environment != 'staging' %}{{ site.baseurl }}{% endif %}{{ "/dist/css/all.css" }}">
+  <link rel="canonical" href="{% if jekyll.environment != 'staging' %}{{ site.url }}{{ site.baseurl }}{% endif %}{{ page.url | replace:'index.html','' }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{% if jekyll.environment != 'staging' %}{{ site.baseurl }}{% endif %}{{ "/feed.xml" }}">
 
   {% if page.path == '_posts' %}
     {% assign type = "article" %}
