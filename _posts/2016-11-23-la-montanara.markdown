@@ -1,6 +1,9 @@
 ---
 title: La Montanara
 date: 2016-11-23 14:49:00 +01:00
+categories:
+- photography
+- print
 thumbnail_image_file: "/uploads/la-montanara-hero.jpg"
 thumbnail_video_file: "/uploads/lamontanara-preview.mp4"
 year_date: 2015-11-11 00:00:00 +01:00
