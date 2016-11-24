@@ -8,7 +8,7 @@ tags:
 - photography
 - fashion
 position: 3
-size: small
+size: half
 thumbnail_image_file: "/uploads/argentero-campaign-hero.jpg"
 client: Argentero
 kind:
