@@ -7,8 +7,8 @@ categories:
 tags:
 - photography
 - fashion
-position: 3
-size: half
+position: 19
+size: small
 thumbnail_image_file: "/uploads/argentero-campaign-hero.jpg"
 client: Argentero
 kind:
