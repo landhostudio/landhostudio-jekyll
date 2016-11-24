@@ -10,7 +10,7 @@ tags:
 - copywriting
 - video
 position: 1
-size: large
+size: half
 thumbnail_image_file: "/uploads/glix-hero.jpg"
 thumbnail_video_file: "/uploads/glix-preview.mp4"
 video: 117172709
@@ -18,7 +18,6 @@ client: Glix
 payoff: Shop everywear you are
 kind:
 - Fashion
-collaborations: 
 year_date: 2015-11-11 00:00:00 +01:00
 link: http://glix.info
 grid:
