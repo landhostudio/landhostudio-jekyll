@@ -9,8 +9,8 @@ tags:
 - cover
 - band
 - music
-position: 3
-size: half
+position: 11
+size: large
 thumbnail_image_file: "/uploads/in-winter-time-1.jpg"
 video: 33991574
 client: Il cielo di Bagdad
