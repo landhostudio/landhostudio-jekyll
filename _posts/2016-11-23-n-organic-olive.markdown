@@ -5,7 +5,8 @@ categories:
 - photography
 - print
 - web
-size: half
+position: 9
+size: small
 thumbnail_image_file: "/uploads/n-organic-hero.jpg"
 client: 'N-Organic olive '
 kind:
