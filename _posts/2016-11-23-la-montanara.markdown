@@ -4,7 +4,8 @@ date: 2016-11-23 14:49:00 +01:00
 categories:
 - photography
 - print
-size: half
+position: 10
+size: medium
 thumbnail_image_file: "/uploads/lamontanara-hero.jpg"
 thumbnail_video_file: "/uploads/lamontanara-preview.mp4"
 video: 82005221
