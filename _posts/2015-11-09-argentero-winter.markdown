@@ -11,7 +11,7 @@ tags:
 - print
 position: 6
 size: small
-thumbnail_image_file: "/uploads/argentero-winter-hero.jpg"
+thumbnail_image_file: "/uploads/argentero-winter-hero-2-a70a8c.jpg"
 client: Argentero
 kind:
 - Fashion
