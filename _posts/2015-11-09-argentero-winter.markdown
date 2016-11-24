@@ -9,8 +9,8 @@ tags:
 - photography
 - fashion
 - print
-position: 3
-size: half
+position: 6
+size: small
 thumbnail_image_file: "/uploads/argentero-winter-hero.jpg"
 client: Argentero
 kind:
