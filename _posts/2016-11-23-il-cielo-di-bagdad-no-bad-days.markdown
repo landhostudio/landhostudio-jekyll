@@ -6,7 +6,7 @@ categories:
 - print
 position: 3
 size: medium
-thumbnail_image_file: "/uploads/no-bad-days-hero.jpg"
+thumbnail_image_file: "/uploads/no-bad-days-heronew.jpg"
 kind:
 - Music
 collaborations:
