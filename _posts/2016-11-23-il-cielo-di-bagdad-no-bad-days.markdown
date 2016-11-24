@@ -4,7 +4,7 @@ date: 2016-11-23 16:39:00 +01:00
 categories:
 - photography
 - print
-size: huge
+size: half
 thumbnail_image_file: "/uploads/no-bad-days-hero.jpg"
 kind:
 - Music
