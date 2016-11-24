@@ -6,6 +6,7 @@ categories:
 size: half
 thumbnail_image_file: "/uploads/poste-impresa-hero.jpg"
 thumbnail_video_file: "/uploads/poste-impresa-preview.mp4"
+video: 68143987
 client: Poste Italiane
 kind:
 - Service
