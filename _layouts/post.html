@@ -6,7 +6,7 @@ layout: default
 
   <div class="Work__Hero">
 
-    {% if page.video %}
+    {% if page.video != empty %}
       <div class="Work__Hero-Play">
         <button class="Work__Hero-Button">
           <span class="Hidden">Play video</span>
@@ -23,9 +23,9 @@ layout: default
       </div>
     {% endif %}
 
-    {% if page.video %}
+    {% if page.video != empty %}
       <div class="Work__Hero-Video">
-        <iframe src='https://player.vimeo.com/video/{{ page.video }}' frameborder='0'></iframe>
+        <iframe src='https://player.vimeo.com/video/{{ page.video }}?quality=1080p' frameborder='0'></iframe>
       </div>
     {% endif %}
 

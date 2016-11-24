@@ -5,7 +5,7 @@
       
       <div class="Grid__Content">
         <h2>{{ include.handle.title | escape }}</h2>
-        {% if include.handle.payoff %}
+        {% if include.handle.payoff != empty %}
           <p>{{ include.handle.payoff }}</p>
         {% endif %}
       </div>
