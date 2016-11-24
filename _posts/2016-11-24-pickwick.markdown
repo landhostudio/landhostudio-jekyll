@@ -1,0 +1,49 @@
+---
+title: Pickwick
+date: 2016-11-24 11:49:00 +01:00
+categories:
+- video
+size: huge
+thumbnail_image_file: "/uploads/pickwick-hero-9234e5.jpg"
+thumbnail_video_file: "/uploads/pickwick-preview.mp4"
+client: Pickwick
+kind:
+- Fashion
+year_date: 2015-11-12 00:00:00 +01:00
+grid:
+- grid_size: half
+  image_file: "/uploads/pickwick-1.jpg"
+  video_file: "/uploads/pickwick-1.mp4"
+  is_video_audio: false
+  is_video_autoplay: false
+- grid_size: half
+  image_file: "/uploads/pickwick-2.jpg"
+  video_file: "/uploads/pickwick-2.mp4"
+  is_video_audio: false
+  is_video_autoplay: false
+- grid_size: huge
+  image_file: "/uploads/pickwick-3.jpg"
+  video_file: "/uploads/pickwick-3.mp4"
+  is_video_audio: false
+  is_video_autoplay: false
+- grid_size: half
+  image_file: "/uploads/pickwick-4.jpg"
+  video_file: "/uploads/pickwick-4.mp4"
+  is_video_audio: false
+  is_video_autoplay: false
+- grid_size: half
+  image_file: "/uploads/pickwick-5.jpg"
+  video_file: "/uploads/pickwick-5.mp4"
+  is_video_audio: false
+  is_video_autoplay: false
+- grid_size: huge
+  image_file: "/uploads/pickwick-6.jpg"
+  video_file: 
+  is_video_audio: false
+  is_video_autoplay: false
+---
+
+Chi negli anni 90' non ha mai indossato una felpa Pickwick?
+Il noto brand italiano ci ha contattato per girare uno spot tv che andasse in onda su Sky durante le pause pubblicitarie del programma Xfactor.
+
+Per “Follow the wave” abbiamo coinvolto skaters, ballerine, bikers e altri amici per annunciare il ritorno del brand.
