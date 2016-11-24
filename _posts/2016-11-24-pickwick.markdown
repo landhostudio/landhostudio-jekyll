@@ -3,7 +3,7 @@ title: Pickwick
 date: 2016-11-24 11:49:00 +01:00
 categories:
 - video
-size: huge
+size: half
 thumbnail_image_file: "/uploads/pickwick-hero.jpg"
 thumbnail_video_file: "/uploads/pickwick-preview.mp4"
 client: Pickwick
