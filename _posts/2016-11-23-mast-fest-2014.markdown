@@ -5,6 +5,7 @@ categories:
 - video
 size: half
 thumbnail_image_file: "/uploads/mas-fest-2014-hero.jpg"
+video: 98326093
 client: Mas Fest
 kind:
 - Festival
