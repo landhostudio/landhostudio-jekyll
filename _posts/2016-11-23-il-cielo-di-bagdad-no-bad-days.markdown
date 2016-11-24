@@ -1,6 +1,9 @@
 ---
 title: Il Cielo di Bagdad – No Bad Days
 date: 2016-11-23 16:39:00 +01:00
+categories:
+- print
+- photography
 size: huge
 thumbnail_image_file: "/uploads/no-bad-days-hero.jpg"
 kind:
