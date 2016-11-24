@@ -572,7 +572,7 @@ svg {
   .Grid__Item--HasVideo .Grid__Content {
     top: initial;
     height: auto;
-    bottom: 0;
+    bottom: -0.0625rem;
     background-color: #F6ADA1;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem; }
