@@ -1,6 +1,9 @@
 ---
 title: Mas Fest – We Are In Circle
 date: 2016-11-23 16:23:00 +01:00
+categories:
+- print
+- video
 size: huge
 thumbnail_image_file: "/uploads/mas-fest-we-are-in-circle-hero.jpg"
 thumbnail_video_file: "/uploads/mas-fest-we-are-in-circle-preview.mp4"
