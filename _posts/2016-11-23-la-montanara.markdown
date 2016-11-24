@@ -7,6 +7,7 @@ categories:
 size: half
 thumbnail_image_file: "/uploads/lamontanara-hero.jpg"
 thumbnail_video_file: "/uploads/lamontanara-preview.mp4"
+video: 82005221
 year_date: 2015-11-11 00:00:00 +01:00
 grid:
 - grid_size: huge
