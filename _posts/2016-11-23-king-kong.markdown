@@ -3,7 +3,8 @@ title: King Kong
 date: 2016-11-23 14:46:00 +01:00
 categories:
 - video
-size: half
+position: 18
+size: small
 thumbnail_image_file: "/uploads/kingkong-party-hero.jpg"
 thumbnail_video_file: "/uploads/kingkong-party-preview.mp4"
 video: 168033582
