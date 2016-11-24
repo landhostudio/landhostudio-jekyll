@@ -19,4 +19,5 @@ grid:
   is_video_autoplay: false
 ---
 
-Non ce il testo…
+Woody nasce di sabato dal legno.
+Stampa con tecnica Litografica.
