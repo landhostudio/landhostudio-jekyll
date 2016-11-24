@@ -7,6 +7,7 @@ categories:
 size: half
 thumbnail_image_file: "/uploads/keyline-hero.jpg"
 thumbnail_video_file: "/uploads/keyline-preview-1.mp4"
+video: 82096419
 client: Keyline
 payoff: Think New
 kind:
