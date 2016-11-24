@@ -23,4 +23,5 @@ grid:
   is_video_autoplay: false
 ---
 
-Non ce il testo…
+Progettazione e modellazione di visual destinati ad un ricettario di cucina tipica romana. 
+
