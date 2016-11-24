@@ -7,7 +7,8 @@ categories:
 - web
 - print
 - video
-size: half
+position: 1
+size: large
 thumbnail_image_file: "/uploads/villa-ada-8.jpg"
 client: Villa Ada Incontra Il Mondo
 payoff: L'isola che non c'è
