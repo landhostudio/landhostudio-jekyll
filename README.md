@@ -22,3 +22,4 @@
 6. [ ] Showcase must play videos when slide item is active
 7. [ ] Add page cover image for `hello`
 8. [ ] Add style for `hello` page
+9. [ ] Post preview thumb and cover thumb make different
