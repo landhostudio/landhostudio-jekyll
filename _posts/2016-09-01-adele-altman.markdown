@@ -39,4 +39,4 @@ grid:
 ---
 
 Adele Altman è una catena di negozi di abbigliamento che conta diversi punti vendita in tutta Italia.
- Il nostro studio si è occupato della prima campagna fotografica del brand e del suo posizionamento sul web.
+Il nostro studio si è occupato della prima campagna fotografica del brand e del suo posizionamento sul web.
