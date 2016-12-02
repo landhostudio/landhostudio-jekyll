@@ -34,5 +34,4 @@ grid:
   is_video_autoplay: false
 ---
 
-Il cielo di Bagdad è una band italiana che ci piace molto.
-Dall’uscita di “Bad days”, il loro primo disco, abbiamo realizzato uno shooting fotografico nel nostro studio. Come guest star abbiamo invitato i nostri gatti Lillo e Fat danny, che poi sono finiti sulla copertina dell’album.
+Per il video Althea-Kiss abbiamo realizzato una serie di illustrazioni animate che si integrano nel video girato attraverso un unica carrellata.
