@@ -30,4 +30,6 @@ grid:
   is_video_autoplay: false
 ---
 
-Non ce testo…
+Mas Fest è un oneday festival che si tiene in provincia di Avellino e di cui curiamo la comunicazione.
+
+Per l’edizione 2015 abbiamo giocato con delle geometrie di legno.
