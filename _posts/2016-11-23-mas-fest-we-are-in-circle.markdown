@@ -33,4 +33,6 @@ grid:
   is_video_autoplay: false
 ---
 
-Non ce il testo…
+Mas-fest è un one-day festival che si tiene in provincia di Avellino.
+Per l'edizione "We are in circle" ci siamo occupati dell'intera comunicazione:
+Brand identity, video, e stampe in litografia.
