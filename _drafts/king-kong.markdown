@@ -32,4 +32,4 @@ grid:
   is_video_autoplay: false
 ---
 
-Non ce testo
+Che cosa succede se metti King Kong dentro ad un ananas.
