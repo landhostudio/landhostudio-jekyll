@@ -42,4 +42,5 @@ grid:
   is_video_autoplay: false
 ---
 
-Danilo quando era piccolo faceva naso-nasino con davide lima 
+In Winter Time è un festival natalizio che si tiene in provincia di Avellino e di cui abbiamo curato l'intera comunicazione.
+Tra bastoncini di zucchero e mostri delle nevi.
