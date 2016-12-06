@@ -38,5 +38,5 @@ grid:
   is_video_autoplay: false
 ---
 
-La pizza fritta Montanara è un piatto tipicodella cucina napoletana.
+La pizza fritta Montanara è un piatto tipico della cucina napoletana.
 Dall'olio della pizza abbiamo ricavato un poster.  
