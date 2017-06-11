@@ -43,6 +43,21 @@ layout: default
 
       <h2 class="Hidden">Information about {{ page.title }}</h2>
 
+      <p>
+        <strong>Categories</strong>
+
+        {% assign categories = page.categories %}
+        
+        {% for category in categories %}
+          {% if forloop.last == true %}
+            {{ category | capitalize }}{{ category.url }}
+          {% else %}
+            {{ category | capitalize }}, {% endif %}
+        {% endfor %}
+      </p>
+
+      <hr>
+
       {% if page.client %}
         <p class="Work__Content-Meta-Client"><strong>Client</strong> {{ page.client }}</p>
       {% endif %}

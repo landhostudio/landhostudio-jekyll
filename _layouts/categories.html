@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<section class="category">
+  <h1>{{ page.category }}</h1>
+  
+  <div class="category-items">
+    {% for post in site.categories[page.category] %}
+      <article class="category-item">
+        {{ post.title }}
+      </article>
+    {% endfor %}
+  </div>
+  
+</section>
